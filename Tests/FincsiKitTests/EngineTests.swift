@@ -89,8 +89,13 @@ final class EngineTests: XCTestCase {
         let (catalog, _, _) = try makeEngine()
         let table = try SubstitutionTable.loadBundled()
         for substitution in table.all {
-            XCTAssertNotNil(catalog[substitution.from], substitution.from)
-            XCTAssertNotNil(catalog[substitution.to], substitution.to)
+            XCTAssertNotNil(catalog[substitution.ingredient], substitution.ingredient)
+            guard let target = catalog[substitution.to] else {
+                XCTFail("ismeretlen csere: \(substitution.to)")
+                continue
+            }
+            XCTAssertTrue(target.tags.isDisjoint(with: substitution.diet.forbiddenTags),
+                          "\(substitution.ingredient) → \(substitution.to) nem felel meg: \(substitution.diet)")
         }
     }
 }
