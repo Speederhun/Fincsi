@@ -10,12 +10,14 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section("Ajánlások") {
+                Section {
                     Toggle("Só, bors, víz, olaj mindig van", isOn: settingBinding(\.assumeStaples))
                     Toggle("Ismeretlen hozzávalójú receptek is", isOn: settingBinding(\.allowUncertain))
                     Stepper(value: settingBinding(\.maxMissing), in: 1...8) {
                         Text("„Majdnem megvan”: legfeljebb \(model.data.settings.maxMissing) hiányzó")
                     }
+                } header: {
+                    Text("Ajánlások")
                 } footer: {
                     Text("Étrend mellett az ismeretlen hozzávalójú (letöltött) receptek alapból rejtve maradnak, mert az étrendi megfelelésük nem ellenőrizhető.")
                 }
