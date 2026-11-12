@@ -1,0 +1,5275 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "id": "zoldseg",
+   "name": "Zöldség",
+   "order": 0
+  },
+  {
+   "id": "gyumolcs",
+   "name": "Gyümölcs",
+   "order": 1
+  },
+  {
+   "id": "hus",
+   "name": "Hús és felvágott",
+   "order": 2
+  },
+  {
+   "id": "hal",
+   "name": "Hal és tenger gyümölcsei",
+   "order": 3
+  },
+  {
+   "id": "tej",
+   "name": "Tejtermék és tojás",
+   "order": 4
+  },
+  {
+   "id": "gabona",
+   "name": "Gabona, tészta, pékáru",
+   "order": 5
+  },
+  {
+   "id": "fuszer",
+   "name": "Fűszer és gyógynövény",
+   "order": 6
+  },
+  {
+   "id": "olaj",
+   "name": "Olaj, zsiradék, ecet",
+   "order": 7
+  },
+  {
+   "id": "konzerv",
+   "name": "Konzerv, szósz, alaplé",
+   "order": 8
+  },
+  {
+   "id": "mag",
+   "name": "Magvak és diófélék",
+   "order": 9
+  },
+  {
+   "id": "edes",
+   "name": "Sütés, édesítők",
+   "order": 10
+  },
+  {
+   "id": "ital",
+   "name": "Ital",
+   "order": 11
+  },
+  {
+   "id": "specialis",
+   "name": "Speciális (növényi, laktóz- és gluténmentes)",
+   "order": 12
+  }
+ ],
+ "ingredients": [
+  {
+   "id": "burgonya",
+   "name": "burgonya",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "potato",
+    "potatoes",
+    "new potatoes",
+    "floury potatoes",
+    "waxy potatoes",
+    "jacket potatoes",
+    "maris piper potatoes",
+    "charlotte potatoes"
+   ],
+   "aliasesHU": [
+    "krumpli"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "edesburgonya",
+   "name": "édesburgonya",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "sweet potato",
+    "sweet potatoes"
+   ],
+   "aliasesHU": [
+    "batáta"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "voroshagyma",
+   "name": "vöröshagyma",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "onion",
+    "onions",
+    "brown onion",
+    "yellow onion",
+    "white onion",
+    "shallot",
+    "shallots"
+   ],
+   "aliasesHU": [
+    "hagyma",
+    "fejes hagyma",
+    "sárgahagyma"
+   ],
+   "family": "hagyma",
+   "staple": false
+  },
+  {
+   "id": "lilahagyma",
+   "name": "lilahagyma",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "red onion",
+    "red onions"
+   ],
+   "aliasesHU": [
+    "vörös hagyma"
+   ],
+   "family": "hagyma",
+   "staple": false
+  },
+  {
+   "id": "ujhagyma",
+   "name": "újhagyma",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "spring onion",
+    "spring onions",
+    "scallion",
+    "scallions",
+    "green onion",
+    "green onions",
+    "salad onions"
+   ],
+   "aliasesHU": [
+    "zöldhagyma"
+   ],
+   "family": "hagyma",
+   "staple": false
+  },
+  {
+   "id": "hagyma",
+   "name": "hagyma (bármilyen)",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [],
+   "aliasesHU": [
+    "bármilyen hagyma"
+   ],
+   "family": "hagyma",
+   "staple": false
+  },
+  {
+   "id": "fokhagyma",
+   "name": "fokhagyma",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "garlic",
+    "garlic clove",
+    "garlic cloves",
+    "cloves garlic",
+    "clove garlic",
+    "garlic puree",
+    "garlic paste",
+    "garlic bulb",
+    "garlic powder"
+   ],
+   "aliasesHU": [
+    "fokhagymagerezd"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "paprika",
+   "name": "paprika",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "bell pepper",
+    "bell peppers",
+    "red pepper",
+    "red peppers",
+    "green pepper",
+    "green peppers",
+    "yellow pepper",
+    "yellow peppers",
+    "orange pepper",
+    "orange peppers",
+    "red bell pepper",
+    "green bell pepper",
+    "yellow bell pepper",
+    "orange bell pepper",
+    "capsicum",
+    "sweet pepper",
+    "peppers",
+    "roasted red pepper",
+    "roasted peppers"
+   ],
+   "aliasesHU": [
+    "tv paprika",
+    "kaliforniai paprika",
+    "kápia paprika",
+    "étkezési paprika"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "chili",
+   "name": "csípős paprika",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "chilli",
+    "chili",
+    "chillies",
+    "chilies",
+    "red chilli",
+    "green chilli",
+    "chili pepper",
+    "red chili",
+    "jalapeno",
+    "jalapeño",
+    "jalapenos",
+    "serrano chilli",
+    "scotch bonnet",
+    "birds eye chilli",
+    "thai chilli",
+    "red chilli pepper",
+    "green chilli pepper",
+    "chilli pepper"
+   ],
+   "aliasesHU": [
+    "erős paprika",
+    "csili",
+    "cseresznyepaprika"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "paradicsom",
+   "name": "paradicsom",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "tomato",
+    "tomatoes",
+    "plum tomatoes",
+    "cherry tomatoes",
+    "vine tomatoes",
+    "beef tomatoes",
+    "baby plum tomatoes",
+    "tomato slices"
+   ],
+   "aliasesHU": [
+    "paradicsomot"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "sargarepa",
+   "name": "sárgarépa",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "carrot",
+    "carrots",
+    "carrot batons",
+    "grated carrot"
+   ],
+   "aliasesHU": [
+    "répa",
+    "sárgarépa"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "pasztinak",
+   "name": "paszternák",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "parsnip",
+    "parsnips"
+   ],
+   "aliasesHU": [
+    "pasztinák"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "petrezselyemgyoker",
+   "name": "petrezselyemgyökér",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "parsley root",
+    "root parsley"
+   ],
+   "aliasesHU": [
+    "gyökér",
+    "zöldség gyökér"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "zellergyoker",
+   "name": "zellergyökér",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "celeriac",
+    "celery root"
+   ],
+   "aliasesHU": [
+    "zeller"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szarzeller",
+   "name": "szárzeller",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "celery",
+    "celery stalks",
+    "celery stalk",
+    "celery sticks",
+    "celery stick",
+    "celery rib",
+    "celery ribs",
+    "stick celery"
+   ],
+   "aliasesHU": [
+    "zellerszár"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kaposzta",
+   "name": "káposzta",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "cabbage",
+    "white cabbage",
+    "green cabbage",
+    "red cabbage",
+    "savoy cabbage",
+    "spring greens",
+    "chinese cabbage",
+    "napa cabbage",
+    "pointed cabbage"
+   ],
+   "aliasesHU": [
+    "fejes káposzta",
+    "fehér káposzta"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "savanyukaposzta",
+   "name": "savanyú káposzta",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "sauerkraut"
+   ],
+   "aliasesHU": [
+    "savanyúkáposzta"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kelkaposzta",
+   "name": "kelkáposzta",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "kale",
+    "curly kale",
+    "cavolo nero"
+   ],
+   "aliasesHU": [
+    "kel"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "karfiol",
+   "name": "karfiol",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "cauliflower",
+    "cauliflower florets"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "brokkoli",
+   "name": "brokkoli",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "broccoli",
+    "broccoli florets",
+    "tenderstem broccoli"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "cukkini",
+   "name": "cukkini",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "courgette",
+    "courgettes",
+    "zucchini",
+    "zucchinis"
+   ],
+   "aliasesHU": [
+    "tök"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "padlizsan",
+   "name": "padlizsán",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "aubergine",
+    "aubergines",
+    "eggplant",
+    "eggplants"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "uborka",
+   "name": "uborka",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "cucumber",
+    "cucumbers",
+    "english cucumber",
+    "mini cucumbers"
+   ],
+   "aliasesHU": [
+    "kígyóuborka",
+    "salátauborka"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "savanyuuborka",
+   "name": "savanyú uborka",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "gherkin",
+    "gherkins",
+    "pickles",
+    "pickled gherkins",
+    "cornichons",
+    "cornichon",
+    "pickle",
+    "dill pickle",
+    "dill pickles",
+    "pickled cucumber"
+   ],
+   "aliasesHU": [
+    "kovászos uborka",
+    "ecetes uborka",
+    "csemege uborka"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "cekla",
+   "name": "cékla",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "beetroot",
+    "beets",
+    "beet",
+    "beetroots",
+    "cooked beetroot"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "spenot",
+   "name": "spenót",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "spinach",
+    "leaf spinach"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "salata",
+   "name": "saláta",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "lettuce",
+    "iceberg lettuce",
+    "romaine lettuce",
+    "cos lettuce",
+    "little gem lettuce",
+    "salad leaves",
+    "mixed salad leaves",
+    "mixed leaves",
+    "salad",
+    "butterhead lettuce"
+   ],
+   "aliasesHU": [
+    "fejes saláta",
+    "jégsaláta"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "rukkola",
+   "name": "rukkola",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "rocket",
+    "arugula",
+    "wild rocket",
+    "rocket leaves"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "zoldborso",
+   "name": "zöldborsó",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "peas",
+    "green peas",
+    "garden peas",
+    "petits pois",
+    "sugar snap peas",
+    "mangetout"
+   ],
+   "aliasesHU": [
+    "borsó"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "zoldbab",
+   "name": "zöldbab",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "green beans",
+    "french beans",
+    "runner beans",
+    "fine beans",
+    "string beans",
+    "haricots verts"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kukorica",
+   "name": "kukorica",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "sweetcorn",
+    "sweet corn",
+    "corn",
+    "corn kernels",
+    "tinned sweetcorn",
+    "canned corn",
+    "corn on the cob",
+    "baby corn"
+   ],
+   "aliasesHU": [
+    "csemegekukorica"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "sutotok",
+   "name": "sütőtök",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "pumpkin",
+    "butternut squash",
+    "butternut pumpkin",
+    "squash",
+    "pumpkin puree",
+    "acorn squash",
+    "kabocha"
+   ],
+   "aliasesHU": [
+    "hokkaido"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "retek",
+   "name": "retek",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "radish",
+    "radishes"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "gomba",
+   "name": "gomba (bármilyen)",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [],
+   "aliasesHU": [
+    "bármilyen gomba"
+   ],
+   "family": "gomba",
+   "staple": false
+  },
+  {
+   "id": "csiperkegomba",
+   "name": "csiperkegomba",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "mushroom",
+    "mushrooms",
+    "button mushrooms",
+    "chestnut mushrooms",
+    "closed cup mushrooms",
+    "white mushrooms",
+    "cremini mushrooms",
+    "portobello mushrooms",
+    "portabello mushrooms",
+    "sliced mushrooms",
+    "mushrooms sliced"
+   ],
+   "aliasesHU": [
+    "csiperke"
+   ],
+   "family": "gomba",
+   "staple": false
+  },
+  {
+   "id": "laskagomba",
+   "name": "laskagomba",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "oyster mushrooms",
+    "oyster mushroom",
+    "king oyster mushrooms"
+   ],
+   "aliasesHU": [
+    "laska"
+   ],
+   "family": "gomba",
+   "staple": false
+  },
+  {
+   "id": "shiitake",
+   "name": "shiitake gomba",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "shiitake mushrooms",
+    "shiitake",
+    "dried shiitake mushrooms",
+    "dried mushrooms",
+    "porcini mushrooms",
+    "dried porcini mushrooms",
+    "mixed mushrooms",
+    "wild mushrooms",
+    "enoki mushrooms"
+   ],
+   "aliasesHU": [],
+   "family": "gomba",
+   "staple": false
+  },
+  {
+   "id": "porehagyma",
+   "name": "póréhagyma",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "leek",
+    "leeks",
+    "baby leeks"
+   ],
+   "aliasesHU": [
+    "póré"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "avokado",
+   "name": "avokádó",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "avocado",
+    "avocados"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "olivabogyo",
+   "name": "olajbogyó",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "olives",
+    "black olives",
+    "green olives",
+    "kalamata olives",
+    "pitted olives",
+    "pitted black olives",
+    "pitted green olives",
+    "stuffed olives"
+   ],
+   "aliasesHU": [
+    "olíva"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kapribogyo",
+   "name": "kapribogyó",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "capers",
+    "caper",
+    "caper berries"
+   ],
+   "aliasesHU": [
+    "kapri"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szaritott_paradicsom",
+   "name": "szárított paradicsom",
+   "category": "zoldseg",
+   "tags": [],
+   "aliasesEN": [
+    "sun-dried tomatoes",
+    "sundried tomatoes",
+    "sun dried tomatoes",
+    "sun-blushed tomatoes",
+    "sundried tomato"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "gyomber",
+   "name": "gyömbér",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "ginger",
+    "root ginger",
+    "ginger root",
+    "grated ginger",
+    "piece of ginger",
+    "ginger paste"
+   ],
+   "aliasesHU": [
+    "friss gyömbér"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "petrezselyem",
+   "name": "petrezselyemzöld",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "parsley",
+    "flat-leaf parsley",
+    "flat leaf parsley",
+    "parsley leaves",
+    "curly parsley",
+    "italian parsley",
+    "dried parsley"
+   ],
+   "aliasesHU": [
+    "petrezselyem",
+    "zöldpetrezselyem"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kapor",
+   "name": "kapor",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "dill",
+    "dill weed",
+    "dried dill",
+    "dill fronds"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "bazsalikom",
+   "name": "bazsalikom",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "basil",
+    "basil leaves",
+    "dried basil",
+    "thai basil",
+    "sweet basil"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "oregano",
+   "name": "oregánó",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "oregano",
+    "dried oregano"
+   ],
+   "aliasesHU": [
+    "oregano"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kakukkfu",
+   "name": "kakukkfű",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "thyme",
+    "dried thyme",
+    "thyme leaves",
+    "lemon thyme",
+    "thyme sprigs"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "rozmaring",
+   "name": "rozmaring",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "rosemary",
+    "dried rosemary",
+    "rosemary sprigs"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "menta",
+   "name": "menta",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "mint",
+    "mint leaves",
+    "dried mint"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "koriander",
+   "name": "koriander",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "coriander",
+    "cilantro",
+    "coriander leaves",
+    "coriander leaf"
+   ],
+   "aliasesHU": [
+    "zöld koriander"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "snidling",
+   "name": "snidling",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "chives",
+    "chive"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "baberlevel",
+   "name": "babérlevél",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "bay leaf",
+    "bay leaves"
+   ],
+   "aliasesHU": [
+    "babér"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "zsalya",
+   "name": "zsálya",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "sage",
+    "dried sage",
+    "sage leaves"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "majoranna",
+   "name": "majoranna",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "marjoram",
+    "dried marjoram"
+   ],
+   "aliasesHU": [
+    "majoranna"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "so",
+   "name": "só",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "salt",
+    "sea salt",
+    "kosher salt",
+    "table salt",
+    "flaky salt",
+    "rock salt",
+    "maldon salt",
+    "coarse sea salt"
+   ],
+   "aliasesHU": [
+    "konyhasó"
+   ],
+   "family": null,
+   "staple": true
+  },
+  {
+   "id": "bors",
+   "name": "bors",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "pepper",
+    "black pepper",
+    "ground black pepper",
+    "white pepper",
+    "ground white pepper",
+    "peppercorns",
+    "black peppercorns",
+    "cracked black pepper",
+    "ground pepper"
+   ],
+   "aliasesHU": [
+    "fekete bors",
+    "őrölt bors"
+   ],
+   "family": null,
+   "staple": true
+  },
+  {
+   "id": "fuszerpaprika",
+   "name": "fűszerpaprika",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "paprika",
+    "sweet paprika",
+    "smoked paprika",
+    "hot paprika",
+    "ground paprika",
+    "hungarian paprika",
+    "pimenton"
+   ],
+   "aliasesHU": [
+    "pirospaprika",
+    "paprikapor",
+    "csípős fűszerpaprika"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "chilipor",
+   "name": "chilipor",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "chilli powder",
+    "chili powder",
+    "cayenne pepper",
+    "cayenne",
+    "red chilli flakes",
+    "chilli flakes",
+    "chili flakes",
+    "crushed chilli",
+    "dried chilli",
+    "dried chillies",
+    "crushed chilli flakes",
+    "crushed red pepper",
+    "red pepper flakes",
+    "crushed chillies",
+    "ground chilli"
+   ],
+   "aliasesHU": [
+    "cayenne",
+    "csípős paprika por"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "komeny",
+   "name": "kömény",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "cumin",
+    "ground cumin",
+    "cumin seeds",
+    "cumin seed",
+    "caraway seeds",
+    "caraway",
+    "whole cumin"
+   ],
+   "aliasesHU": [
+    "köménymag"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "koriandermag",
+   "name": "őrölt koriander",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "ground coriander",
+    "coriander seeds",
+    "coriander powder",
+    "coriander seed"
+   ],
+   "aliasesHU": [
+    "koriandermag"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kurkuma",
+   "name": "kurkuma",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "turmeric",
+    "ground turmeric",
+    "turmeric powder"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "fahej",
+   "name": "fahéj",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "cinnamon",
+    "ground cinnamon",
+    "cinnamon stick",
+    "cinnamon sticks",
+    "cinnamon powder"
+   ],
+   "aliasesHU": [
+    "fahéj"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szegfuszeg",
+   "name": "szegfűszeg",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "cloves",
+    "ground cloves",
+    "whole cloves",
+    "clove"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szerecsendio",
+   "name": "szerecsendió",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "nutmeg",
+    "ground nutmeg",
+    "grated nutmeg"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kardamom",
+   "name": "kardamom",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "cardamom",
+    "cardamom pods",
+    "ground cardamom",
+    "green cardamom"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "curry",
+   "name": "currypor",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "curry powder",
+    "madras curry powder",
+    "garam masala"
+   ],
+   "aliasesHU": [
+    "curry"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "vanilia",
+   "name": "vanília",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "vanilla",
+    "vanilla extract",
+    "vanilla essence",
+    "vanilla pod",
+    "vanilla bean",
+    "vanilla paste"
+   ],
+   "aliasesHU": [
+    "vaníliarúd"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "mustar",
+   "name": "mustár",
+   "category": "fuszer",
+   "tags": [],
+   "aliasesEN": [
+    "mustard",
+    "dijon mustard",
+    "wholegrain mustard",
+    "whole grain mustard",
+    "yellow mustard",
+    "mustard seeds"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "ecet",
+   "name": "ecet",
+   "category": "olaj",
+   "tags": [],
+   "aliasesEN": [
+    "vinegar",
+    "white vinegar",
+    "white wine vinegar",
+    "red wine vinegar",
+    "apple cider vinegar",
+    "cider vinegar",
+    "rice vinegar",
+    "rice wine vinegar",
+    "sherry vinegar",
+    "distilled vinegar",
+    "spirit vinegar"
+   ],
+   "aliasesHU": [
+    "almaecet",
+    "borecet",
+    "étkezési ecet"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "balzsamecet",
+   "name": "balzsamecet",
+   "category": "olaj",
+   "tags": [],
+   "aliasesEN": [
+    "balsamic vinegar",
+    "balsamic",
+    "balsamic glaze",
+    "aged balsamic vinegar"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "etolaj",
+   "name": "étolaj",
+   "category": "olaj",
+   "tags": [],
+   "aliasesEN": [
+    "vegetable oil",
+    "sunflower oil",
+    "oil",
+    "cooking oil",
+    "rapeseed oil",
+    "canola oil",
+    "groundnut oil",
+    "corn oil",
+    "light oil",
+    "neutral oil",
+    "frying oil",
+    "oil for frying"
+   ],
+   "aliasesHU": [
+    "napraforgóolaj",
+    "olaj"
+   ],
+   "family": null,
+   "staple": true
+  },
+  {
+   "id": "olivaolaj",
+   "name": "olívaolaj",
+   "category": "olaj",
+   "tags": [],
+   "aliasesEN": [
+    "olive oil",
+    "extra virgin olive oil",
+    "extra-virgin olive oil",
+    "virgin olive oil",
+    "light olive oil",
+    "evoo"
+   ],
+   "aliasesHU": [
+    "olívaolaj"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "vaj",
+   "name": "vaj",
+   "category": "olaj",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "butter",
+    "unsalted butter",
+    "salted butter",
+    "melted butter",
+    "softened butter",
+    "cold butter",
+    "clarified butter",
+    "ghee",
+    "knob of butter"
+   ],
+   "aliasesHU": [
+    "tejvaj"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "margarin",
+   "name": "margarin",
+   "category": "olaj",
+   "tags": [],
+   "aliasesEN": [
+    "margarine",
+    "vegetable margarine",
+    "vegan butter",
+    "dairy-free butter",
+    "plant butter",
+    "vegan margarine",
+    "baking margarine"
+   ],
+   "aliasesHU": [
+    "növényi margarin",
+    "növényi vaj"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "sertezsir",
+   "name": "sertészsír",
+   "category": "olaj",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "lard",
+    "pork fat",
+    "pork dripping",
+    "beef dripping",
+    "dripping",
+    "suet",
+    "beef suet",
+    "schmaltz"
+   ],
+   "aliasesHU": [
+    "zsír"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "libazsir",
+   "name": "libazsír",
+   "category": "olaj",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "goose fat",
+    "duck fat"
+   ],
+   "aliasesHU": [
+    "kacsazsír"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kokuszolaj",
+   "name": "kókuszolaj",
+   "category": "olaj",
+   "tags": [],
+   "aliasesEN": [
+    "coconut oil",
+    "virgin coconut oil"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szezamolaj",
+   "name": "szezámolaj",
+   "category": "olaj",
+   "tags": [],
+   "aliasesEN": [
+    "sesame oil",
+    "toasted sesame oil",
+    "roasted sesame oil"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tej",
+   "name": "tej",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "milk",
+    "whole milk",
+    "semi-skimmed milk",
+    "skimmed milk",
+    "full-fat milk",
+    "full fat milk",
+    "cold milk",
+    "warm milk",
+    "low-fat milk",
+    "fresh milk",
+    "evaporated milk"
+   ],
+   "aliasesHU": [
+    "teljes tej"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kefir",
+   "name": "kefir",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "buttermilk",
+    "kefir"
+   ],
+   "aliasesHU": [
+    "író"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tejfol",
+   "name": "tejföl",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "sour cream",
+    "soured cream",
+    "smetana",
+    "creme fraiche",
+    "crème fraîche"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tejszin",
+   "name": "tejszín",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "double cream",
+    "heavy cream",
+    "single cream",
+    "cream",
+    "whipping cream",
+    "thickened cream",
+    "light cream",
+    "whipped cream",
+    "heavy whipping cream",
+    "pouring cream",
+    "thick cream",
+    "cooking cream"
+   ],
+   "aliasesHU": [
+    "főzőtejszín",
+    "habtejszín"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "joghurt",
+   "name": "joghurt",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "yogurt",
+    "yoghurt",
+    "natural yogurt",
+    "plain yogurt",
+    "greek yogurt",
+    "greek yoghurt",
+    "natural yoghurt",
+    "plain yoghurt",
+    "thick yogurt"
+   ],
+   "aliasesHU": [
+    "natúr joghurt"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "turo",
+   "name": "túró",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "quark",
+    "curd cheese",
+    "cottage cheese",
+    "farmer's cheese"
+   ],
+   "aliasesHU": [
+    "tehéntúró"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "ricotta",
+   "name": "ricotta",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "ricotta",
+    "ricotta cheese"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kremsajt",
+   "name": "krémsajt",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "cream cheese",
+    "philadelphia",
+    "soft cheese",
+    "full-fat soft cheese"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "mascarpone",
+   "name": "mascarpone",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "mascarpone"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "sajt",
+   "name": "sajt",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "cheese",
+    "shredded cheese",
+    "mixed grated cheese",
+    "hard cheese",
+    "mature cheese",
+    "tasty cheese"
+   ],
+   "aliasesHU": [
+    "reszelt sajt"
+   ],
+   "family": "sajt",
+   "staple": false
+  },
+  {
+   "id": "mozzarella",
+   "name": "mozzarella",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "mozzarella",
+    "mozzarella balls",
+    "buffalo mozzarella",
+    "grated mozzarella",
+    "mozzarella cheese"
+   ],
+   "aliasesHU": [],
+   "family": "sajt",
+   "staple": false
+  },
+  {
+   "id": "parmezan",
+   "name": "parmezán",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "parmesan",
+    "parmesan cheese",
+    "parmigiano reggiano",
+    "pecorino",
+    "pecorino romano",
+    "grana padano",
+    "parmigiano",
+    "parmigiano-reggiano"
+   ],
+   "aliasesHU": [
+    "parmezán"
+   ],
+   "family": "sajt",
+   "staple": false
+  },
+  {
+   "id": "feta",
+   "name": "feta",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "feta",
+    "feta cheese",
+    "halloumi",
+    "goat's cheese",
+    "goats cheese",
+    "goat cheese",
+    "blue cheese",
+    "gorgonzola",
+    "stilton"
+   ],
+   "aliasesHU": [
+    "juhsajt"
+   ],
+   "family": "sajt",
+   "staple": false
+  },
+  {
+   "id": "cheddar",
+   "name": "cheddar",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "cheddar",
+    "cheddar cheese",
+    "mature cheddar",
+    "sharp cheddar",
+    "mild cheddar",
+    "red leicester",
+    "gruyere",
+    "gruyère",
+    "emmental",
+    "gouda",
+    "swiss cheese",
+    "monterey jack",
+    "colby jack",
+    "jarlsberg",
+    "edam",
+    "provolone"
+   ],
+   "aliasesHU": [
+    "ementáli",
+    "gouda",
+    "edami"
+   ],
+   "family": "sajt",
+   "staple": false
+  },
+  {
+   "id": "trappista",
+   "name": "trappista sajt",
+   "category": "tej",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [],
+   "aliasesHU": [
+    "trappista"
+   ],
+   "family": "sajt",
+   "staple": false
+  },
+  {
+   "id": "tojas",
+   "name": "tojás",
+   "category": "tej",
+   "tags": [
+    "egg"
+   ],
+   "aliasesEN": [
+    "egg",
+    "eggs",
+    "large eggs",
+    "free-range eggs",
+    "medium eggs",
+    "beaten egg",
+    "whole eggs",
+    "boiled eggs",
+    "hard-boiled eggs",
+    "eggs beaten"
+   ],
+   "aliasesHU": [
+    "tojást",
+    "főtt tojás"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tojassarga",
+   "name": "tojássárgája",
+   "category": "tej",
+   "tags": [
+    "egg"
+   ],
+   "aliasesEN": [
+    "egg yolk",
+    "egg yolks",
+    "yolk",
+    "yolks"
+   ],
+   "aliasesHU": [
+    "sárgája"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tojasfeher",
+   "name": "tojásfehérje",
+   "category": "tej",
+   "tags": [
+    "egg"
+   ],
+   "aliasesEN": [
+    "egg white",
+    "egg whites",
+    "white of egg"
+   ],
+   "aliasesHU": [
+    "fehérje"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "csirkemell",
+   "name": "csirkemell",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "chicken breast",
+    "chicken breasts",
+    "chicken fillet",
+    "chicken fillets",
+    "chicken breast fillets",
+    "chicken breast fillet",
+    "chicken tenders",
+    "diced chicken",
+    "chicken strips",
+    "cooked chicken",
+    "shredded chicken",
+    "chicken pieces"
+   ],
+   "aliasesHU": [
+    "csirkemellfilé"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "csirkecomb",
+   "name": "csirkecomb",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "chicken thigh",
+    "chicken thighs",
+    "chicken drumsticks",
+    "chicken legs",
+    "chicken thigh fillets",
+    "chicken drumstick",
+    "chicken leg",
+    "chicken wings",
+    "chicken wing"
+   ],
+   "aliasesHU": [
+    "alsócomb",
+    "felsőcomb",
+    "csirkeszárny"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "csirke",
+   "name": "csirke",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "chicken",
+    "roast chicken",
+    "rotisserie chicken",
+    "chicken carcass"
+   ],
+   "aliasesHU": [
+    "egész csirke",
+    "sütnivaló csirke"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "csirkemaj",
+   "name": "csirkemáj",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "chicken liver",
+    "chicken livers",
+    "liver",
+    "calf liver"
+   ],
+   "aliasesHU": [
+    "máj"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "serteshus",
+   "name": "sertéshús",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "pork",
+    "pork shoulder",
+    "pork loin",
+    "diced pork",
+    "pork chop",
+    "pork chops",
+    "pork belly",
+    "pork fillet",
+    "pork tenderloin",
+    "pork steaks",
+    "pork ribs",
+    "spare ribs",
+    "pork leg",
+    "pork neck",
+    "pork cutlets",
+    "pork escalope",
+    "pork loin steaks"
+   ],
+   "aliasesHU": [
+    "sertés",
+    "karaj",
+    "sertéskaraj",
+    "sertéscomb",
+    "csülök",
+    "tarja",
+    "sertéslapocka",
+    "oldalas"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "marhahus",
+   "name": "marhahús",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "beef",
+    "beef brisket",
+    "stewing beef",
+    "braising steak",
+    "beef shin",
+    "beef fillet",
+    "steak",
+    "sirloin steak",
+    "rump steak",
+    "diced beef",
+    "beef chuck",
+    "chuck steak",
+    "beef short ribs",
+    "flank steak",
+    "skirt steak",
+    "ribeye steak",
+    "beef steak",
+    "fillet steak",
+    "beef cheeks",
+    "oxtail",
+    "casserole steak",
+    "stewing steak",
+    "beef strips",
+    "beef sirloin",
+    "topside beef",
+    "roast beef",
+    "beef joint"
+   ],
+   "aliasesHU": [
+    "marha",
+    "marhalábszár",
+    "marhaszegy",
+    "marhalapocka",
+    "hátszín"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "daralt_marha",
+   "name": "darált marhahús",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "minced beef",
+    "ground beef",
+    "beef mince",
+    "lean minced beef",
+    "lean ground beef",
+    "extra lean beef mince",
+    "hamburger meat"
+   ],
+   "aliasesHU": [
+    "darált marha"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "daralt_sertes",
+   "name": "darált sertéshús",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "minced pork",
+    "ground pork",
+    "pork mince"
+   ],
+   "aliasesHU": [
+    "darált sertés"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "daralthus",
+   "name": "darált hús",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "minced meat",
+    "mince",
+    "ground meat",
+    "mixed mince",
+    "meat mince"
+   ],
+   "aliasesHU": [
+    "vegyes darált hús"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "barany",
+   "name": "bárányhús",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "lamb",
+    "lamb shoulder",
+    "lamb leg",
+    "lamb mince",
+    "minced lamb",
+    "lamb neck fillet",
+    "diced lamb",
+    "lamb chops",
+    "lamb shanks",
+    "leg of lamb",
+    "lamb cutlets",
+    "ground lamb",
+    "lamb steaks",
+    "lamb loin",
+    "rack of lamb",
+    "mutton"
+   ],
+   "aliasesHU": [
+    "bárány"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kacsa",
+   "name": "kacsahús",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "duck",
+    "duck breast",
+    "duck legs",
+    "duck breasts",
+    "duck leg",
+    "duck thighs"
+   ],
+   "aliasesHU": [
+    "kacsamell",
+    "kacsacomb"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "pulyka",
+   "name": "pulykahús",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "turkey",
+    "turkey breast",
+    "turkey mince",
+    "minced turkey",
+    "turkey thighs",
+    "turkey fillet",
+    "turkey steaks",
+    "ground turkey"
+   ],
+   "aliasesHU": [
+    "pulyka",
+    "pulykamell"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szalonna",
+   "name": "szalonna",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "bacon",
+    "streaky bacon",
+    "smoked bacon",
+    "back bacon",
+    "pancetta",
+    "bacon rashers",
+    "bacon lardons",
+    "lardons",
+    "smoked streaky bacon",
+    "unsmoked bacon",
+    "diced bacon",
+    "bacon bits",
+    "bacon strips"
+   ],
+   "aliasesHU": [
+    "bacon",
+    "császárszalonna",
+    "füstölt szalonna",
+    "angolszalonna"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kolbasz",
+   "name": "kolbász",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "chorizo",
+    "smoked sausage",
+    "kielbasa",
+    "hungarian sausage",
+    "cured sausage",
+    "salami",
+    "pepperoni",
+    "andouille sausage",
+    "chorizo sausage",
+    "cooking chorizo"
+   ],
+   "aliasesHU": [
+    "füstölt kolbász",
+    "csabai",
+    "debreceni",
+    "gyulai",
+    "szalámi",
+    "lecsókolbász"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "virsli",
+   "name": "virsli",
+   "category": "hus",
+   "tags": [
+    "meat",
+    "gluten"
+   ],
+   "aliasesEN": [
+    "sausage",
+    "sausages",
+    "pork sausages",
+    "italian sausage",
+    "italian sausages",
+    "beef sausages",
+    "sausage meat",
+    "sausage links",
+    "breakfast sausage",
+    "hot dog sausages",
+    "frankfurters",
+    "hot dogs",
+    "cumberland sausage",
+    "lincolnshire sausages",
+    "chicken sausages",
+    "bratwurst",
+    "merguez"
+   ],
+   "aliasesHU": [
+    "párizsi",
+    "hot dog",
+    "főzőkolbász"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "sonka",
+   "name": "sonka",
+   "category": "hus",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "ham",
+    "gammon",
+    "prosciutto",
+    "parma ham",
+    "serrano ham",
+    "cooked ham",
+    "smoked ham",
+    "ham hock",
+    "diced ham",
+    "sliced ham",
+    "ham slices",
+    "gammon steaks",
+    "gammon joint",
+    "jamon"
+   ],
+   "aliasesHU": [
+    "füstölt sonka",
+    "főtt sonka"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "lazac",
+   "name": "lazac",
+   "category": "hal",
+   "tags": [
+    "fish"
+   ],
+   "aliasesEN": [
+    "salmon",
+    "salmon fillet",
+    "salmon fillets",
+    "smoked salmon",
+    "salmon steaks",
+    "skinless salmon fillets"
+   ],
+   "aliasesHU": [
+    "lazacfilé"
+   ],
+   "family": "hal",
+   "staple": false
+  },
+  {
+   "id": "tonhal",
+   "name": "tonhal",
+   "category": "hal",
+   "tags": [
+    "fish"
+   ],
+   "aliasesEN": [
+    "tuna",
+    "tuna steak",
+    "tuna steaks",
+    "tinned tuna",
+    "canned tuna",
+    "tuna chunks",
+    "tuna in oil",
+    "tuna in water",
+    "tin tuna",
+    "tuna chunks in brine"
+   ],
+   "aliasesHU": [
+    "tonhalkonzerv",
+    "konzerv tonhal"
+   ],
+   "family": "hal",
+   "staple": false
+  },
+  {
+   "id": "ponty",
+   "name": "ponty",
+   "category": "hal",
+   "tags": [
+    "fish"
+   ],
+   "aliasesEN": [
+    "carp"
+   ],
+   "aliasesHU": [
+    "halászlé hal"
+   ],
+   "family": "hal",
+   "staple": false
+  },
+  {
+   "id": "feher_hal",
+   "name": "halfilé",
+   "category": "hal",
+   "tags": [
+    "fish"
+   ],
+   "aliasesEN": [
+    "cod",
+    "cod fillets",
+    "white fish",
+    "white fish fillets",
+    "haddock",
+    "haddock fillet",
+    "hake",
+    "pollock",
+    "sea bass",
+    "tilapia",
+    "sea bream",
+    "monkfish",
+    "plaice",
+    "halibut",
+    "cod fillet",
+    "white fish fillet",
+    "coley",
+    "whiting",
+    "trout",
+    "rainbow trout",
+    "mackerel",
+    "sardines",
+    "sardine"
+   ],
+   "aliasesHU": [
+    "pisztráng",
+    "harcsa",
+    "busa",
+    "süllő",
+    "tőkehal",
+    "fogas"
+   ],
+   "family": "hal",
+   "staple": false
+  },
+  {
+   "id": "garnela",
+   "name": "garnélarák",
+   "category": "hal",
+   "tags": [
+    "fish"
+   ],
+   "aliasesEN": [
+    "prawns",
+    "king prawns",
+    "shrimp",
+    "shrimps",
+    "tiger prawns",
+    "raw prawns",
+    "cooked prawns",
+    "jumbo prawns",
+    "large prawns",
+    "peeled prawns",
+    "raw king prawns",
+    "cooked king prawns",
+    "langoustines",
+    "crab",
+    "crab meat",
+    "lobster",
+    "scallops",
+    "squid",
+    "calamari",
+    "octopus"
+   ],
+   "aliasesHU": [
+    "rák",
+    "garnéla",
+    "tenger gyümölcsei"
+   ],
+   "family": "hal",
+   "staple": false
+  },
+  {
+   "id": "kagylo",
+   "name": "kagyló",
+   "category": "hal",
+   "tags": [
+    "fish"
+   ],
+   "aliasesEN": [
+    "mussels",
+    "clams",
+    "oysters",
+    "cockles"
+   ],
+   "aliasesHU": [
+    "kagylók"
+   ],
+   "family": "hal",
+   "staple": false
+  },
+  {
+   "id": "szardella",
+   "name": "szardella",
+   "category": "hal",
+   "tags": [
+    "fish"
+   ],
+   "aliasesEN": [
+    "anchovy",
+    "anchovies",
+    "anchovy fillets",
+    "anchovy paste",
+    "tinned anchovies",
+    "salted anchovies",
+    "canned anchovies"
+   ],
+   "aliasesHU": [
+    "szardella"
+   ],
+   "family": "hal",
+   "staple": false
+  },
+  {
+   "id": "hal",
+   "name": "hal (bármilyen)",
+   "category": "hal",
+   "tags": [],
+   "aliasesEN": [],
+   "aliasesHU": [
+    "bármilyen hal"
+   ],
+   "family": "hal",
+   "staple": false
+  },
+  {
+   "id": "liszt",
+   "name": "liszt",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "flour",
+    "plain flour",
+    "all-purpose flour",
+    "all purpose flour",
+    "white flour",
+    "wheat flour",
+    "bread flour",
+    "strong white flour",
+    "self-raising flour",
+    "self raising flour",
+    "plain white flour",
+    "00 flour",
+    "strong flour",
+    "cake flour",
+    "pastry flour",
+    "spelt flour"
+   ],
+   "aliasesHU": [
+    "búzaliszt",
+    "finomliszt",
+    "simaliszt",
+    "rétesliszt",
+    "kenyérliszt"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "teljes_liszt",
+   "name": "teljes kiőrlésű liszt",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "wholemeal flour",
+    "whole wheat flour",
+    "wholewheat flour",
+    "whole-wheat flour",
+    "wholemeal plain flour",
+    "brown flour",
+    "granary flour",
+    "rye flour"
+   ],
+   "aliasesHU": [
+    "graham liszt",
+    "rozsliszt",
+    "teljeskiőrlésű liszt"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "buzadara",
+   "name": "búzadara",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "semolina",
+    "semolina flour",
+    "durum wheat semolina",
+    "fine semolina"
+   ],
+   "aliasesHU": [
+    "dara",
+    "grízdara"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "rizsliszt",
+   "name": "rizsliszt",
+   "category": "gabona",
+   "tags": [],
+   "aliasesEN": [
+    "rice flour",
+    "glutinous rice flour",
+    "sweet rice flour"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kukoricakemenyito",
+   "name": "kukoricakeményítő",
+   "category": "gabona",
+   "tags": [],
+   "aliasesEN": [
+    "cornflour",
+    "cornstarch",
+    "corn starch",
+    "corn flour",
+    "arrowroot",
+    "arrowroot powder",
+    "tapioca starch",
+    "tapioca flour"
+   ],
+   "aliasesHU": [
+    "étkezési keményítő",
+    "keményítő"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "burgonyakemenyito",
+   "name": "burgonyakeményítő",
+   "category": "gabona",
+   "tags": [],
+   "aliasesEN": [
+    "potato starch",
+    "potato flour"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kukoricadara",
+   "name": "kukoricadara",
+   "category": "gabona",
+   "tags": [],
+   "aliasesEN": [
+    "cornmeal",
+    "polenta",
+    "maize flour",
+    "instant polenta",
+    "fine cornmeal",
+    "coarse cornmeal",
+    "corn meal",
+    "maize meal",
+    "yellow cornmeal",
+    "masa harina"
+   ],
+   "aliasesHU": [
+    "puliszkaliszt"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "hajdina",
+   "name": "hajdina",
+   "category": "gabona",
+   "tags": [],
+   "aliasesEN": [
+    "buckwheat",
+    "buckwheat groats",
+    "kasha"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "hajdinaliszt",
+   "name": "hajdinaliszt",
+   "category": "gabona",
+   "tags": [],
+   "aliasesEN": [
+    "buckwheat flour"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "quinoa",
+   "name": "quinoa",
+   "category": "gabona",
+   "tags": [],
+   "aliasesEN": [
+    "quinoa",
+    "red quinoa",
+    "white quinoa"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "teszta",
+   "name": "száraztészta",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "pasta",
+    "spaghetti",
+    "penne",
+    "fusilli",
+    "tagliatelle",
+    "linguine",
+    "macaroni",
+    "rigatoni",
+    "fettuccine",
+    "lasagne",
+    "lasagne sheets",
+    "lasagna sheets",
+    "farfalle",
+    "orzo",
+    "pappardelle",
+    "vermicelli",
+    "dried pasta",
+    "cannelloni",
+    "conchiglie",
+    "bucatini",
+    "elbow macaroni",
+    "paccheri",
+    "short pasta",
+    "pasta shapes"
+   ],
+   "aliasesHU": [
+    "spagetti",
+    "tészta",
+    "makaróni",
+    "csiga",
+    "orsó"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tojasos_metelt",
+   "name": "tojásos metélt",
+   "category": "gabona",
+   "tags": [
+    "gluten",
+    "egg"
+   ],
+   "aliasesEN": [
+    "egg noodles",
+    "noodles",
+    "medium egg noodles",
+    "egg noodle",
+    "ramen noodles",
+    "udon noodles",
+    "udon",
+    "wheat noodles",
+    "chow mein noodles",
+    "soba noodles",
+    "thick noodles"
+   ],
+   "aliasesHU": [
+    "metélt",
+    "cérnametélt",
+    "tojásos tészta"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tarhonya",
+   "name": "tarhonya",
+   "category": "gabona",
+   "tags": [
+    "gluten",
+    "egg"
+   ],
+   "aliasesEN": [
+    "egg barley"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "rizsteszta",
+   "name": "rizstészta",
+   "category": "gabona",
+   "tags": [],
+   "aliasesEN": [
+    "rice noodles",
+    "rice vermicelli",
+    "rice stick noodles",
+    "rice sticks",
+    "vermicelli noodles",
+    "rice noodle",
+    "flat rice noodles",
+    "pad thai noodles",
+    "glass noodles",
+    "cellophane noodles",
+    "bean thread noodles",
+    "thin rice noodles"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "rizs",
+   "name": "rizs",
+   "category": "gabona",
+   "tags": [],
+   "aliasesEN": [
+    "rice",
+    "long grain rice",
+    "basmati rice",
+    "white rice",
+    "jasmine rice",
+    "arborio rice",
+    "risotto rice",
+    "brown rice",
+    "short grain rice",
+    "sushi rice",
+    "easy cook rice",
+    "long-grain rice",
+    "cooked rice",
+    "basmati",
+    "carnaroli rice",
+    "wild rice",
+    "paella rice",
+    "pudding rice",
+    "microwave rice",
+    "glutinous rice",
+    "sticky rice"
+   ],
+   "aliasesHU": [
+    "jázmin rizs",
+    "basmati rizs",
+    "gömbölyűszemű rizs"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kuszkusz",
+   "name": "kuszkusz",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "couscous",
+    "cous cous",
+    "giant couscous",
+    "pearl couscous",
+    "israeli couscous",
+    "wholewheat couscous"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "bulgur",
+   "name": "bulgur",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "bulgur",
+    "bulgur wheat",
+    "bulghur",
+    "bulgar wheat",
+    "cracked wheat",
+    "freekeh",
+    "farro",
+    "spelt",
+    "wheat berries"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "zabpehely",
+   "name": "zabpehely",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "oats",
+    "rolled oats",
+    "porridge oats",
+    "oatmeal",
+    "oat flakes",
+    "jumbo oats",
+    "quick oats",
+    "steel cut oats",
+    "instant oats",
+    "oat bran",
+    "porridge"
+   ],
+   "aliasesHU": [
+    "zab",
+    "zabkása"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "arpagyongy",
+   "name": "árpagyöngy",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "pearl barley",
+    "barley",
+    "barley flakes",
+    "hulled barley"
+   ],
+   "aliasesHU": [
+    "árpa"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kenyer",
+   "name": "kenyér",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "bread",
+    "white bread",
+    "brown bread",
+    "sliced bread",
+    "wholemeal bread",
+    "sourdough",
+    "sourdough bread",
+    "slices of bread",
+    "bread slices",
+    "crusty bread",
+    "baguette",
+    "ciabatta",
+    "toast",
+    "stale bread",
+    "day-old bread",
+    "rye bread",
+    "french bread",
+    "french stick",
+    "brioche"
+   ],
+   "aliasesHU": [
+    "kifli",
+    "szelet kenyér",
+    "fehér kenyér"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "zsemle",
+   "name": "zsemle",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "bread roll",
+    "bread rolls",
+    "rolls",
+    "burger buns",
+    "hamburger buns",
+    "buns",
+    "brioche buns",
+    "hot dog buns",
+    "burger bun",
+    "bap",
+    "baps",
+    "white rolls",
+    "soft rolls",
+    "hamburger bun",
+    "sandwich rolls"
+   ],
+   "aliasesHU": [
+    "zsemle"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "zsemlemorzsa",
+   "name": "zsemlemorzsa",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "breadcrumbs",
+    "bread crumbs",
+    "panko breadcrumbs",
+    "panko",
+    "dried breadcrumbs",
+    "fresh breadcrumbs",
+    "panko bread crumbs",
+    "toasted breadcrumbs",
+    "white breadcrumbs",
+    "breadcrumb",
+    "dry breadcrumbs",
+    "japanese breadcrumbs",
+    "seasoned breadcrumbs",
+    "golden breadcrumbs",
+    "stale breadcrumbs"
+   ],
+   "aliasesHU": [
+    "morzsa",
+    "panír"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tortilla",
+   "name": "tortilla",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "tortilla",
+    "tortillas",
+    "flour tortilla",
+    "flour tortillas",
+    "wraps",
+    "tortilla wraps",
+    "wrap",
+    "tortilla wrap",
+    "soft tortillas",
+    "whole wheat tortilla",
+    "large flour tortillas"
+   ],
+   "aliasesHU": [
+    "wrap"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "pita",
+   "name": "pita",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "pitta bread",
+    "pita bread",
+    "pitta",
+    "naan bread",
+    "naan",
+    "flatbread",
+    "flat bread",
+    "pitta breads",
+    "pita",
+    "pitta pockets",
+    "chapati",
+    "roti",
+    "lavash"
+   ],
+   "aliasesHU": [
+    "lepény",
+    "naan"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "leveles_teszta",
+   "name": "leveles tészta",
+   "category": "gabona",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "puff pastry",
+    "filo pastry",
+    "filo",
+    "phyllo pastry",
+    "shortcrust pastry",
+    "pastry",
+    "ready-rolled puff pastry",
+    "filo pastry sheets",
+    "puff pastry sheets",
+    "ready made pastry",
+    "shortcrust",
+    "pie crust",
+    "rough puff pastry",
+    "sweet pastry",
+    "pastry sheets",
+    "pastry case",
+    "pie shell",
+    "filo sheets",
+    "phyllo dough",
+    "pizza dough",
+    "dough",
+    "bread dough"
+   ],
+   "aliasesHU": [
+    "réteslap",
+    "pite tészta",
+    "pizzatészta"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "sutopor",
+   "name": "sütőpor",
+   "category": "edes",
+   "tags": [],
+   "aliasesEN": [
+    "baking powder",
+    "bicarbonate of soda",
+    "baking soda",
+    "bicarbonate soda",
+    "bicarb",
+    "bicarb of soda",
+    "raising agent",
+    "cream of tartar"
+   ],
+   "aliasesHU": [
+    "szódabikarbóna"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "eleszto",
+   "name": "élesztő",
+   "category": "edes",
+   "tags": [],
+   "aliasesEN": [
+    "yeast",
+    "dried yeast",
+    "active dry yeast",
+    "instant yeast",
+    "easy-bake yeast",
+    "fast action yeast",
+    "dry yeast",
+    "bakers yeast"
+   ],
+   "aliasesHU": [
+    "friss élesztő",
+    "szárított élesztő"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "paradicsompure",
+   "name": "paradicsompüré",
+   "category": "konzerv",
+   "tags": [],
+   "aliasesEN": [
+    "tomato puree",
+    "tomato paste",
+    "tomato purée",
+    "concentrated tomato puree",
+    "tomato pure",
+    "passata",
+    "tomato passata",
+    "sieved tomatoes",
+    "tomato sauce",
+    "tomato concentrate",
+    "double concentrate tomato puree",
+    "pasata",
+    "tomato juice"
+   ],
+   "aliasesHU": [
+    "paradicsomlé",
+    "passzírozott paradicsom",
+    "sűrített paradicsom",
+    "paradicsomszósz"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "konzerv_paradicsom",
+   "name": "konzerv paradicsom",
+   "category": "konzerv",
+   "tags": [],
+   "aliasesEN": [
+    "chopped tomatoes",
+    "tinned tomatoes",
+    "canned tomatoes",
+    "tinned chopped tomatoes",
+    "canned chopped tomatoes",
+    "diced tomatoes",
+    "tin tomatoes",
+    "tinned plum tomatoes",
+    "canned diced tomatoes",
+    "crushed tomatoes",
+    "peeled tomatoes",
+    "can tomatoes",
+    "whole peeled tomatoes",
+    "canned tomato"
+   ],
+   "aliasesHU": [
+    "hámozott paradicsom",
+    "darabolt paradicsom",
+    "paradicsomkonzerv"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kecsup",
+   "name": "ketchup",
+   "category": "konzerv",
+   "tags": [],
+   "aliasesEN": [
+    "ketchup",
+    "tomato ketchup",
+    "tomato catsup"
+   ],
+   "aliasesHU": [
+    "kecsup"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "majonez",
+   "name": "majonéz",
+   "category": "konzerv",
+   "tags": [
+    "egg"
+   ],
+   "aliasesEN": [
+    "mayonnaise",
+    "mayo",
+    "salad cream",
+    "light mayonnaise"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szojaszosz",
+   "name": "szójaszósz",
+   "category": "konzerv",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "soy sauce",
+    "light soy sauce",
+    "dark soy sauce",
+    "soy",
+    "soya sauce",
+    "dark soy",
+    "low sodium soy sauce",
+    "shoyu",
+    "sweet soy sauce",
+    "kecap manis"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "worcestershire",
+   "name": "worcestershire szósz",
+   "category": "konzerv",
+   "tags": [
+    "fish",
+    "gluten"
+   ],
+   "aliasesEN": [
+    "worcestershire sauce",
+    "worcester sauce",
+    "lea & perrins",
+    "worcestershire"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "halszosz",
+   "name": "halszósz",
+   "category": "konzerv",
+   "tags": [
+    "fish"
+   ],
+   "aliasesEN": [
+    "fish sauce",
+    "nam pla",
+    "thai fish sauce"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "osztrigaszosz",
+   "name": "osztrigaszósz",
+   "category": "konzerv",
+   "tags": [
+    "fish",
+    "gluten"
+   ],
+   "aliasesEN": [
+    "oyster sauce"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "csiliszosz",
+   "name": "csípős szósz",
+   "category": "konzerv",
+   "tags": [],
+   "aliasesEN": [
+    "hot sauce",
+    "chilli sauce",
+    "sriracha",
+    "tabasco",
+    "sweet chilli sauce",
+    "chili sauce",
+    "hot chilli sauce",
+    "sambal oelek",
+    "harissa",
+    "harissa paste",
+    "chilli paste",
+    "chili paste",
+    "sweet chili sauce",
+    "peri peri sauce"
+   ],
+   "aliasesHU": [
+    "erős pista",
+    "csípős szósz"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "bab",
+   "name": "bab",
+   "category": "konzerv",
+   "tags": [],
+   "aliasesEN": [
+    "kidney beans",
+    "red kidney beans",
+    "black beans",
+    "cannellini beans",
+    "white beans",
+    "haricot beans",
+    "butter beans",
+    "borlotti beans",
+    "beans",
+    "tinned kidney beans",
+    "canned beans",
+    "mixed beans",
+    "pinto beans",
+    "black-eyed beans",
+    "black eyed beans",
+    "flageolet beans",
+    "broad beans",
+    "tinned beans",
+    "tinned cannellini beans",
+    "canned kidney beans",
+    "tinned black beans",
+    "canned black beans",
+    "dried beans",
+    "navy beans",
+    "lima beans"
+   ],
+   "aliasesHU": [
+    "szárazbab",
+    "konzerv bab",
+    "fehér bab",
+    "tarkabab",
+    "vörös bab",
+    "fekete bab"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "csicseriborso",
+   "name": "csicseriborsó",
+   "category": "konzerv",
+   "tags": [],
+   "aliasesEN": [
+    "chickpeas",
+    "chick peas",
+    "garbanzo beans",
+    "tinned chickpeas",
+    "canned chickpeas",
+    "garbanzo",
+    "cooked chickpeas",
+    "dried chickpeas",
+    "tinned chick peas"
+   ],
+   "aliasesHU": [
+    "csicseri"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "lencse",
+   "name": "lencse",
+   "category": "konzerv",
+   "tags": [],
+   "aliasesEN": [
+    "lentils",
+    "red lentils",
+    "green lentils",
+    "brown lentils",
+    "puy lentils",
+    "split red lentils",
+    "dried lentils",
+    "tinned lentils",
+    "canned lentils",
+    "black lentils",
+    "yellow lentils",
+    "split lentils",
+    "beluga lentils"
+   ],
+   "aliasesHU": [
+    "barna lencse",
+    "vörös lencse",
+    "zöld lencse"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kokusztej",
+   "name": "kókusztej",
+   "category": "konzerv",
+   "tags": [],
+   "aliasesEN": [
+    "coconut milk",
+    "coconut cream",
+    "tinned coconut milk",
+    "canned coconut milk",
+    "full-fat coconut milk",
+    "light coconut milk",
+    "creamed coconut"
+   ],
+   "aliasesHU": [
+    "kókusztejszín",
+    "kókuszkrém"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "csirkealaple",
+   "name": "csirke alaplé",
+   "category": "konzerv",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "chicken stock",
+    "chicken broth",
+    "chicken stock cube",
+    "chicken bouillon cube",
+    "chicken stock cubes",
+    "chicken bouillon",
+    "chicken stock powder",
+    "low-sodium chicken broth",
+    "chicken stock pot",
+    "chicken bouillon powder",
+    "hot chicken stock"
+   ],
+   "aliasesHU": [
+    "húsleves kocka",
+    "alaplé",
+    "leveskocka"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "marhaalaple",
+   "name": "marha alaplé",
+   "category": "konzerv",
+   "tags": [
+    "meat"
+   ],
+   "aliasesEN": [
+    "beef stock",
+    "beef broth",
+    "beef stock cube",
+    "beef stock cubes",
+    "beef bouillon",
+    "beef bone broth",
+    "beef stock pot",
+    "lamb stock",
+    "veal stock",
+    "bone broth",
+    "beef stock powder",
+    "beef consomme"
+   ],
+   "aliasesHU": [
+    "marhaleves kocka"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "zoldseg_alaple",
+   "name": "zöldség alaplé",
+   "category": "konzerv",
+   "tags": [],
+   "aliasesEN": [
+    "vegetable stock",
+    "vegetable broth",
+    "vegetable stock cube",
+    "vegetable bouillon",
+    "veg stock",
+    "vegetable stock cubes",
+    "vegetable bouillon cube",
+    "vegetable stock powder",
+    "veg stock cube",
+    "vegetable stock pot"
+   ],
+   "aliasesHU": [
+    "zöldségleves kocka"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "lekvar",
+   "name": "lekvár",
+   "category": "konzerv",
+   "tags": [],
+   "aliasesEN": [
+    "jam",
+    "strawberry jam",
+    "apricot jam",
+    "marmalade",
+    "raspberry jam",
+    "plum jam",
+    "damson jam",
+    "jelly",
+    "redcurrant jelly",
+    "fruit jam",
+    "blackcurrant jam",
+    "cherry jam",
+    "orange marmalade"
+   ],
+   "aliasesHU": [
+    "szilvalekvár",
+    "baracklekvár",
+    "dzsem"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "diofelek",
+   "name": "diófélék (bármilyen)",
+   "category": "mag",
+   "tags": [],
+   "aliasesEN": [],
+   "aliasesHU": [
+    "bármilyen dió",
+    "dió és mogyoró"
+   ],
+   "family": "diofelek",
+   "staple": false
+  },
+  {
+   "id": "dio",
+   "name": "dió",
+   "category": "mag",
+   "tags": [
+    "nut"
+   ],
+   "aliasesEN": [
+    "walnuts",
+    "walnut",
+    "walnut halves",
+    "chopped walnuts",
+    "walnut pieces",
+    "ground walnuts",
+    "pecans",
+    "pecan nuts",
+    "pecan halves",
+    "pecan"
+   ],
+   "aliasesHU": [
+    "dióbél",
+    "darált dió"
+   ],
+   "family": "diofelek",
+   "staple": false
+  },
+  {
+   "id": "mogyoro",
+   "name": "mogyoró",
+   "category": "mag",
+   "tags": [
+    "nut"
+   ],
+   "aliasesEN": [
+    "hazelnuts",
+    "hazelnut",
+    "ground hazelnuts",
+    "chopped hazelnuts",
+    "toasted hazelnuts",
+    "hazelnut spread",
+    "nutella"
+   ],
+   "aliasesHU": [],
+   "family": "diofelek",
+   "staple": false
+  },
+  {
+   "id": "mandula",
+   "name": "mandula",
+   "category": "mag",
+   "tags": [
+    "nut"
+   ],
+   "aliasesEN": [
+    "almonds",
+    "flaked almonds",
+    "ground almonds",
+    "almond",
+    "blanched almonds",
+    "slivered almonds",
+    "sliced almonds",
+    "whole almonds",
+    "almond flour",
+    "almond meal",
+    "almond flakes",
+    "chopped almonds",
+    "marzipan",
+    "almond extract"
+   ],
+   "aliasesHU": [
+    "mandulaliszt",
+    "szeletelt mandula"
+   ],
+   "family": "diofelek",
+   "staple": false
+  },
+  {
+   "id": "pisztacia",
+   "name": "pisztácia",
+   "category": "mag",
+   "tags": [
+    "nut"
+   ],
+   "aliasesEN": [
+    "pistachios",
+    "pistachio",
+    "pistachio nuts",
+    "shelled pistachios",
+    "chopped pistachios",
+    "unsalted pistachios"
+   ],
+   "aliasesHU": [],
+   "family": "diofelek",
+   "staple": false
+  },
+  {
+   "id": "kesudio",
+   "name": "kesudió",
+   "category": "mag",
+   "tags": [
+    "nut"
+   ],
+   "aliasesEN": [
+    "cashews",
+    "cashew nuts",
+    "cashew",
+    "cashew nut",
+    "raw cashews",
+    "unsalted cashews",
+    "roasted cashews",
+    "cashew butter",
+    "cashew cream"
+   ],
+   "aliasesHU": [],
+   "family": "diofelek",
+   "staple": false
+  },
+  {
+   "id": "foldimogyoro",
+   "name": "földimogyoró",
+   "category": "mag",
+   "tags": [
+    "nut"
+   ],
+   "aliasesEN": [
+    "peanuts",
+    "peanut",
+    "salted peanuts",
+    "roasted peanuts",
+    "peanut butter",
+    "crunchy peanut butter",
+    "smooth peanut butter",
+    "unsalted peanuts",
+    "dry roasted peanuts",
+    "groundnuts",
+    "crushed peanuts",
+    "chopped peanuts"
+   ],
+   "aliasesHU": [
+    "mogyoróvaj"
+   ],
+   "family": "diofelek",
+   "staple": false
+  },
+  {
+   "id": "napraforgomag",
+   "name": "napraforgómag",
+   "category": "mag",
+   "tags": [],
+   "aliasesEN": [
+    "sunflower seeds",
+    "sunflower seed",
+    "hulled sunflower seeds",
+    "sunflower kernels"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tokmag",
+   "name": "tökmag",
+   "category": "mag",
+   "tags": [],
+   "aliasesEN": [
+    "pumpkin seeds",
+    "pumpkin seed",
+    "pepitas",
+    "squash seeds",
+    "pumpkin kernels"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szezammag",
+   "name": "szezámmag",
+   "category": "mag",
+   "tags": [],
+   "aliasesEN": [
+    "sesame seeds",
+    "sesame seed",
+    "toasted sesame seeds",
+    "white sesame seeds",
+    "black sesame seeds",
+    "tahini",
+    "sesame paste"
+   ],
+   "aliasesHU": [
+    "szezám"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "mak",
+   "name": "mák",
+   "category": "mag",
+   "tags": [],
+   "aliasesEN": [
+    "poppy seeds",
+    "poppy seed",
+    "ground poppy seeds",
+    "blue poppy seeds",
+    "poppyseeds"
+   ],
+   "aliasesHU": [
+    "darált mák",
+    "mákmag"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "lenmag",
+   "name": "lenmag",
+   "category": "mag",
+   "tags": [],
+   "aliasesEN": [
+    "flaxseed",
+    "linseed",
+    "ground flaxseed",
+    "flax seeds",
+    "flax seed",
+    "linseeds",
+    "golden linseed",
+    "ground linseed",
+    "flaxseed meal",
+    "flax meal",
+    "ground flax"
+   ],
+   "aliasesHU": [
+    "őrölt lenmag"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "chia",
+   "name": "chia mag",
+   "category": "mag",
+   "tags": [],
+   "aliasesEN": [
+    "chia seeds",
+    "chia seed"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kokuszreszelek",
+   "name": "kókuszreszelék",
+   "category": "mag",
+   "tags": [],
+   "aliasesEN": [
+    "desiccated coconut",
+    "coconut flakes",
+    "shredded coconut",
+    "grated coconut",
+    "coconut",
+    "coconut flour",
+    "dried coconut",
+    "flaked coconut"
+   ],
+   "aliasesHU": [
+    "kókuszliszt"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "cukor",
+   "name": "cukor",
+   "category": "edes",
+   "tags": [],
+   "aliasesEN": [
+    "sugar",
+    "caster sugar",
+    "granulated sugar",
+    "white sugar",
+    "superfine sugar",
+    "castor sugar",
+    "fine sugar",
+    "golden caster sugar",
+    "cane sugar",
+    "golden granulated sugar",
+    "coconut sugar",
+    "palm sugar",
+    "jaggery",
+    "pearl sugar",
+    "sugar cubes"
+   ],
+   "aliasesHU": [
+    "kristálycukor",
+    "kockacukor"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "barnacukor",
+   "name": "barnacukor",
+   "category": "edes",
+   "tags": [],
+   "aliasesEN": [
+    "brown sugar",
+    "light brown sugar",
+    "dark brown sugar",
+    "demerara sugar",
+    "muscovado sugar",
+    "soft brown sugar",
+    "dark muscovado sugar",
+    "light muscovado sugar",
+    "soft light brown sugar",
+    "soft dark brown sugar",
+    "turbinado sugar",
+    "golden syrup",
+    "treacle",
+    "black treacle",
+    "molasses"
+   ],
+   "aliasesHU": [
+    "nádcukor"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "porcukor",
+   "name": "porcukor",
+   "category": "edes",
+   "tags": [],
+   "aliasesEN": [
+    "icing sugar",
+    "powdered sugar",
+    "confectioners' sugar",
+    "confectioners sugar",
+    "sifted icing sugar",
+    "powdered icing sugar",
+    "fondant icing sugar"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "vanilias_cukor",
+   "name": "vaníliás cukor",
+   "category": "edes",
+   "tags": [],
+   "aliasesEN": [
+    "vanilla sugar",
+    "vanillin sugar"
+   ],
+   "aliasesHU": [
+    "vanillincukor",
+    "vanilincukor"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "mez",
+   "name": "méz",
+   "category": "edes",
+   "tags": [
+    "honey"
+   ],
+   "aliasesEN": [
+    "honey",
+    "clear honey",
+    "runny honey",
+    "set honey",
+    "raw honey",
+    "acacia honey",
+    "liquid honey",
+    "manuka honey",
+    "wildflower honey"
+   ],
+   "aliasesHU": [
+    "akácméz",
+    "virágméz"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "juharszirup",
+   "name": "juharszirup",
+   "category": "edes",
+   "tags": [],
+   "aliasesEN": [
+    "maple syrup",
+    "pure maple syrup",
+    "agave syrup",
+    "agave nectar",
+    "agave",
+    "date syrup",
+    "rice syrup",
+    "syrup",
+    "corn syrup",
+    "light corn syrup"
+   ],
+   "aliasesHU": [
+    "agávészirup"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "csokolade",
+   "name": "étcsokoládé",
+   "category": "edes",
+   "tags": [],
+   "aliasesEN": [
+    "dark chocolate",
+    "chocolate",
+    "plain chocolate",
+    "chocolate chips",
+    "dark chocolate chips",
+    "bittersweet chocolate",
+    "cooking chocolate",
+    "semi-sweet chocolate",
+    "chocolate chunks",
+    "semisweet chocolate chips",
+    "baking chocolate",
+    "chocolate bar"
+   ],
+   "aliasesHU": [
+    "étcsokoládé",
+    "csokoládé",
+    "főzőcsokoládé"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tejcsokolade",
+   "name": "tejcsokoládé",
+   "category": "edes",
+   "tags": [
+    "dairy",
+    "lactose"
+   ],
+   "aliasesEN": [
+    "milk chocolate",
+    "white chocolate",
+    "milk chocolate chips",
+    "white chocolate chips"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kakao",
+   "name": "kakaó",
+   "category": "edes",
+   "tags": [],
+   "aliasesEN": [
+    "cocoa",
+    "cocoa powder",
+    "unsweetened cocoa powder",
+    "unsweetened cocoa",
+    "cacao powder",
+    "dutch cocoa",
+    "raw cacao",
+    "dutch-process cocoa",
+    "dark cocoa"
+   ],
+   "aliasesHU": [
+    "kakaópor"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "zselatin",
+   "name": "zselatin",
+   "category": "edes",
+   "tags": [
+    "animal"
+   ],
+   "aliasesEN": [
+    "gelatine",
+    "gelatin",
+    "gelatine leaves",
+    "gelatin powder",
+    "gelatine powder",
+    "sheet gelatine",
+    "leaf gelatine",
+    "gelatin sheets",
+    "gelatine sheets",
+    "powdered gelatine"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "agar",
+   "name": "agar-agar",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "agar agar",
+    "agar-agar",
+    "agar powder",
+    "agar flakes"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "mazsola",
+   "name": "mazsola",
+   "category": "edes",
+   "tags": [],
+   "aliasesEN": [
+    "raisins",
+    "sultanas",
+    "currants",
+    "dried currants",
+    "golden raisins",
+    "seedless raisins",
+    "dried raisins",
+    "raisin"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "aszalt_gyumolcs",
+   "name": "aszalt gyümölcs",
+   "category": "edes",
+   "tags": [],
+   "aliasesEN": [
+    "dried fruit",
+    "prunes",
+    "dried prunes",
+    "dried apricots",
+    "dates",
+    "medjool dates",
+    "dried dates",
+    "dried cranberries",
+    "cranberries",
+    "dried figs",
+    "figs",
+    "mixed dried fruit",
+    "dried cherries",
+    "stoned prunes",
+    "pitted dates",
+    "pitted prunes",
+    "dried mango",
+    "dried apple",
+    "dried berries",
+    "glace cherries",
+    "mixed peel",
+    "candied peel"
+   ],
+   "aliasesHU": [
+    "aszalt szilva",
+    "szárított gyümölcs",
+    "datolya",
+    "aszalt barack"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "alma",
+   "name": "alma",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "apple",
+    "apples",
+    "cooking apple",
+    "cooking apples",
+    "bramley apples",
+    "granny smith apple",
+    "red apple",
+    "green apple",
+    "eating apples",
+    "bramley apple",
+    "gala apple",
+    "braeburn apples",
+    "granny smith apples",
+    "pink lady apples",
+    "apple sauce",
+    "applesauce",
+    "dessert apples",
+    "eating apple",
+    "fuji apple"
+   ],
+   "aliasesHU": [
+    "almát"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "korte",
+   "name": "körte",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "pear",
+    "pears",
+    "conference pears",
+    "williams pear",
+    "tinned pears",
+    "canned pears",
+    "bosc pear"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "banan",
+   "name": "banán",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "banana",
+    "bananas",
+    "overripe bananas",
+    "overripe banana",
+    "plantain",
+    "plantains"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "citrom",
+   "name": "citrom",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "lemon",
+    "lemons",
+    "lemon zest",
+    "zest of lemon",
+    "lemon rind",
+    "unwaxed lemon",
+    "unwaxed lemons",
+    "lemon peel",
+    "lemon wedge",
+    "lemon wedges",
+    "lemon slices"
+   ],
+   "aliasesHU": [
+    "citromhéj"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "citromle",
+   "name": "citromlé",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "lemon juice",
+    "juice of lemon",
+    "juice of 1 lemon",
+    "juice of lemons",
+    "bottled lemon juice",
+    "lime juice",
+    "juice of lime",
+    "juice of 1 lime"
+   ],
+   "aliasesHU": [
+    "citromsav"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "narancs",
+   "name": "narancs",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "orange",
+    "oranges",
+    "orange zest",
+    "zest of orange",
+    "orange rind",
+    "orange juice",
+    "juice of orange",
+    "juice of 1 orange",
+    "orange peel",
+    "clementines",
+    "mandarin",
+    "mandarins",
+    "satsumas",
+    "tangerine",
+    "tangerines",
+    "mandarin oranges",
+    "orange segments",
+    "blood orange"
+   ],
+   "aliasesHU": [
+    "narancslé",
+    "narancshéj"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "lime",
+   "name": "lime",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "lime",
+    "limes",
+    "lime zest",
+    "zest of lime",
+    "lime wedges",
+    "lime wedge"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "meggy",
+   "name": "meggy",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "sour cherries",
+    "morello cherries",
+    "cherries",
+    "sour cherry",
+    "tinned cherries",
+    "black cherries",
+    "cherry",
+    "morello cherry",
+    "pitted cherries",
+    "frozen cherries",
+    "canned cherries",
+    "maraschino cherries",
+    "tart cherries",
+    "amarena cherries"
+   ],
+   "aliasesHU": [
+    "cseresznye",
+    "meggybefőtt"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "eper",
+   "name": "eper",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "strawberries",
+    "strawberry",
+    "frozen strawberries",
+    "hulled strawberries",
+    "punnet strawberries"
+   ],
+   "aliasesHU": [
+    "földieper"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "malna",
+   "name": "málna",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "raspberries",
+    "raspberry",
+    "frozen raspberries"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "afonya",
+   "name": "áfonya",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "blueberries",
+    "blueberry",
+    "frozen blueberries",
+    "blackberries",
+    "blackberry",
+    "mixed berries",
+    "berries",
+    "frozen berries",
+    "summer fruits",
+    "mixed summer berries",
+    "redcurrants",
+    "blackcurrants",
+    "frozen mixed berries"
+   ],
+   "aliasesHU": [
+    "szeder",
+    "vörösáfonya",
+    "bogyós gyümölcs",
+    "erdei gyümölcs"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szilva",
+   "name": "szilva",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "plums",
+    "plum",
+    "damsons",
+    "damson",
+    "greengages"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "barack",
+   "name": "barack",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "apricots",
+    "apricot",
+    "peaches",
+    "peach",
+    "nectarines",
+    "nectarine",
+    "tinned peaches",
+    "canned peaches",
+    "peach slices",
+    "canned apricots",
+    "tinned apricots"
+   ],
+   "aliasesHU": [
+    "sárgabarack",
+    "őszibarack",
+    "kajszi"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szolo",
+   "name": "szőlő",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "grapes",
+    "red grapes",
+    "green grapes",
+    "seedless grapes",
+    "black grapes",
+    "white grapes",
+    "grape",
+    "seedless red grapes"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "gorogdinnye",
+   "name": "görögdinnye",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "watermelon",
+    "melon",
+    "cantaloupe",
+    "honeydew melon",
+    "galia melon",
+    "rock melon"
+   ],
+   "aliasesHU": [
+    "sárgadinnye",
+    "dinnye"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "mango",
+   "name": "mangó",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "mango",
+    "mangoes",
+    "mango chutney",
+    "mango pulp",
+    "mangos",
+    "mango puree"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "ananasz",
+   "name": "ananász",
+   "category": "gyumolcs",
+   "tags": [],
+   "aliasesEN": [
+    "pineapple",
+    "tinned pineapple",
+    "pineapple chunks",
+    "canned pineapple",
+    "pineapple rings",
+    "pineapple juice",
+    "crushed pineapple",
+    "pineapple pieces",
+    "canned pineapple chunks"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "viz",
+   "name": "víz",
+   "category": "ital",
+   "tags": [],
+   "aliasesEN": [
+    "water",
+    "cold water",
+    "hot water",
+    "warm water",
+    "boiling water",
+    "tap water",
+    "ice water",
+    "iced water",
+    "lukewarm water",
+    "water to cover",
+    "cooking water",
+    "pasta water",
+    "boiled water",
+    "filtered water",
+    "ice",
+    "ice cubes"
+   ],
+   "aliasesHU": [
+    "csapvíz",
+    "forró víz",
+    "hideg víz"
+   ],
+   "family": null,
+   "staple": true
+  },
+  {
+   "id": "szodaviz",
+   "name": "szódavíz",
+   "category": "ital",
+   "tags": [],
+   "aliasesEN": [
+    "soda water",
+    "sparkling water",
+    "fizzy water",
+    "club soda",
+    "carbonated water",
+    "sparkling mineral water",
+    "mineral water"
+   ],
+   "aliasesHU": [
+    "ásványvíz"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "voroshor",
+   "name": "vörösbor",
+   "category": "ital",
+   "tags": [],
+   "aliasesEN": [
+    "red wine",
+    "dry red wine",
+    "full-bodied red wine",
+    "merlot",
+    "cabernet sauvignon",
+    "port",
+    "marsala wine",
+    "marsala",
+    "sherry",
+    "madeira"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "feherbor",
+   "name": "fehérbor",
+   "category": "ital",
+   "tags": [],
+   "aliasesEN": [
+    "white wine",
+    "dry white wine",
+    "chardonnay",
+    "sauvignon blanc",
+    "vermouth",
+    "dry vermouth",
+    "dry sherry",
+    "cooking wine",
+    "pinot grigio",
+    "prosecco",
+    "champagne",
+    "cider",
+    "dry cider"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "sor",
+   "name": "sör",
+   "category": "ital",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "beer",
+    "lager",
+    "ale",
+    "stout",
+    "guinness",
+    "pale ale",
+    "dark beer",
+    "light beer",
+    "wheat beer",
+    "bitter",
+    "porter",
+    "dark ale"
+   ],
+   "aliasesHU": [
+    "világos sör",
+    "barna sör"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kave",
+   "name": "kávé",
+   "category": "ital",
+   "tags": [],
+   "aliasesEN": [
+    "coffee",
+    "instant coffee",
+    "espresso",
+    "strong coffee",
+    "black coffee",
+    "brewed coffee",
+    "ground coffee",
+    "coffee granules",
+    "instant espresso powder",
+    "espresso powder",
+    "strong black coffee",
+    "instant coffee powder",
+    "coffee beans",
+    "cold brew",
+    "decaf coffee"
+   ],
+   "aliasesHU": [
+    "eszpresszó",
+    "instant kávé"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "rum",
+   "name": "rum, pálinka, likőr",
+   "category": "ital",
+   "tags": [],
+   "aliasesEN": [
+    "rum",
+    "brandy",
+    "whisky",
+    "whiskey",
+    "vodka",
+    "gin",
+    "bourbon",
+    "cognac",
+    "tequila",
+    "amaretto",
+    "kahlua",
+    "liqueur",
+    "orange liqueur",
+    "grand marnier",
+    "cointreau",
+    "triple sec",
+    "dark rum",
+    "white rum",
+    "kirsch",
+    "schnapps",
+    "baileys",
+    "irish cream"
+   ],
+   "aliasesHU": [
+    "pálinka",
+    "konyak",
+    "rum",
+    "likőr"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tofu",
+   "name": "tofu",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "tofu",
+    "firm tofu",
+    "silken tofu",
+    "extra firm tofu",
+    "soft tofu",
+    "pressed tofu",
+    "tofu block",
+    "tofu cubes"
+   ],
+   "aliasesHU": [
+    "natúr tofu"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "fustolt_tofu",
+   "name": "füstölt tofu",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "smoked tofu",
+    "tempeh"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szeitan",
+   "name": "szeitán",
+   "category": "specialis",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "seitan",
+    "wheat gluten",
+    "vital wheat gluten",
+    "wheat protein"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szojadarab",
+   "name": "szójadarab",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "textured vegetable protein",
+    "tvp",
+    "soy mince",
+    "soya mince",
+    "soy chunks",
+    "soya chunks",
+    "textured soy protein",
+    "vegetarian mince",
+    "meat-free mince",
+    "quorn",
+    "quorn mince",
+    "vegan mince",
+    "plant-based mince",
+    "veggie mince",
+    "soy granules",
+    "soya granules",
+    "soy protein",
+    "vegetable mince",
+    "vegetarian burger",
+    "meatless mince"
+   ],
+   "aliasesHU": [
+    "szójagranulátum",
+    "szójakocka",
+    "növényi darált hús"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "novenyi_kolbasz",
+   "name": "növényi kolbász",
+   "category": "specialis",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "vegan sausage",
+    "vegan sausages",
+    "vegetarian sausage",
+    "vegetarian sausages",
+    "veggie sausages",
+    "plant-based sausage",
+    "vegan chorizo",
+    "vegetarian chorizo",
+    "vegetarian hot dog",
+    "veggie sausage"
+   ],
+   "aliasesHU": [
+    "vegán kolbász",
+    "vegetáriánus kolbász"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "zabital",
+   "name": "zabital",
+   "category": "specialis",
+   "tags": [
+    "gluten"
+   ],
+   "aliasesEN": [
+    "oat milk",
+    "oat drink",
+    "oatly"
+   ],
+   "aliasesHU": [
+    "zabtej"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "szojatej",
+   "name": "szójatej",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "soy milk",
+    "soya milk",
+    "soy drink",
+    "soya drink"
+   ],
+   "aliasesHU": [
+    "szójaital"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "mandulatej",
+   "name": "mandulatej",
+   "category": "specialis",
+   "tags": [
+    "nut"
+   ],
+   "aliasesEN": [
+    "almond milk",
+    "almond drink",
+    "almond-milk"
+   ],
+   "aliasesHU": [
+    "mandulaital"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "rizsital",
+   "name": "rizsital",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "rice milk",
+    "rice drink"
+   ],
+   "aliasesHU": [
+    "rizstej"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "laktozmentes_tej",
+   "name": "laktózmentes tej",
+   "category": "specialis",
+   "tags": [
+    "dairy"
+   ],
+   "aliasesEN": [
+    "lactose-free milk",
+    "lactose free milk",
+    "lactofree milk"
+   ],
+   "aliasesHU": [
+    "laktózmentes"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "laktozmentes_tejfol",
+   "name": "laktózmentes tejföl",
+   "category": "specialis",
+   "tags": [
+    "dairy"
+   ],
+   "aliasesEN": [],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "laktozmentes_tejszin",
+   "name": "laktózmentes tejszín",
+   "category": "specialis",
+   "tags": [
+    "dairy"
+   ],
+   "aliasesEN": [],
+   "aliasesHU": [
+    "laktózmentes főzőtejszín"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "laktozmentes_vaj",
+   "name": "laktózmentes vaj",
+   "category": "specialis",
+   "tags": [
+    "dairy"
+   ],
+   "aliasesEN": [
+    "lactose-free butter",
+    "lactose free butter"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "laktozmentes_joghurt",
+   "name": "laktózmentes joghurt",
+   "category": "specialis",
+   "tags": [
+    "dairy"
+   ],
+   "aliasesEN": [
+    "lactose-free yogurt",
+    "lactose free yoghurt"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "laktozmentes_turo",
+   "name": "laktózmentes túró",
+   "category": "specialis",
+   "tags": [
+    "dairy"
+   ],
+   "aliasesEN": [
+    "lactose-free cottage cheese",
+    "lactose free quark"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "laktozmentes_sajt",
+   "name": "laktózmentes sajt",
+   "category": "specialis",
+   "tags": [
+    "dairy"
+   ],
+   "aliasesEN": [
+    "lactose-free cheese",
+    "lactose free cheese"
+   ],
+   "aliasesHU": [
+    "laktózmentes trappista"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "novenyi_fozokrem",
+   "name": "növényi főzőkrém",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "plant-based cream",
+    "oat cream",
+    "soy cream",
+    "vegan cream",
+    "dairy-free cream",
+    "plant cream",
+    "oat cooking cream",
+    "vegan double cream",
+    "soya cream"
+   ],
+   "aliasesHU": [
+    "zabfőzőkrém",
+    "szójafőzőkrém",
+    "növényi tejszín"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "novenyi_joghurt",
+   "name": "növényi joghurt",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "plant-based yogurt",
+    "plant-based yoghurt",
+    "dairy-free yogurt",
+    "dairy free yoghurt",
+    "vegan yogurt",
+    "vegan yoghurt",
+    "soy yogurt",
+    "coconut yogurt",
+    "soya yoghurt"
+   ],
+   "aliasesHU": [
+    "szójajoghurt",
+    "kókuszjoghurt"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "novenyi_sajt",
+   "name": "növényi sajt",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "vegan cheese",
+    "dairy-free cheese",
+    "plant-based cheese",
+    "vegan cheddar",
+    "vegan mozzarella",
+    "dairy free cheese",
+    "vegan parmesan",
+    "vegan feta"
+   ],
+   "aliasesHU": [
+    "vegán sajt"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "eleszto_pehely",
+   "name": "élesztőpehely",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "nutritional yeast",
+    "nooch",
+    "yeast flakes",
+    "nutritional yeast flakes"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "novenyi_majonez",
+   "name": "növényi majonéz",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "vegan mayonnaise",
+    "vegan mayo",
+    "egg-free mayonnaise",
+    "dairy-free mayonnaise"
+   ],
+   "aliasesHU": [
+    "vegán majonéz"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "gluten_mentes_liszt",
+   "name": "gluténmentes lisztkeverék",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "gluten-free flour",
+    "gluten free flour",
+    "gluten-free plain flour",
+    "gluten free plain flour",
+    "gluten-free flour blend",
+    "gluten free all-purpose flour",
+    "gluten-free self-raising flour",
+    "gluten free self raising flour",
+    "gf flour",
+    "gluten-free bread flour"
+   ],
+   "aliasesHU": [
+    "gluténmentes liszt",
+    "schär liszt"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "gluten_mentes_kenyer",
+   "name": "gluténmentes kenyér",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "gluten free bread",
+    "gluten-free bread",
+    "gluten free rolls",
+    "gluten-free rolls",
+    "gluten-free wraps",
+    "gluten free wraps",
+    "gluten-free pitta"
+   ],
+   "aliasesHU": [
+    "gluténmentes zsemle",
+    "gluténmentes pékáru"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "gluten_mentes_morzsa",
+   "name": "gluténmentes zsemlemorzsa",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "gluten-free breadcrumbs",
+    "gluten free breadcrumbs",
+    "gluten-free panko",
+    "gluten free panko"
+   ],
+   "aliasesHU": [
+    "gluténmentes morzsa"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "gluten_mentes_zabpehely",
+   "name": "gluténmentes zabpehely",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "gluten-free oats",
+    "gluten free oats",
+    "gluten-free porridge oats",
+    "gluten free porridge oats"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "gluten_mentes_sor",
+   "name": "gluténmentes sör",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "gluten-free beer",
+    "gluten free beer",
+    "gluten-free lager",
+    "gluten free lager"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "gluten_mentes_teszta",
+   "name": "gluténmentes tészta",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "gluten free pasta",
+    "gluten-free pasta",
+    "gluten free spaghetti",
+    "gluten free penne",
+    "gluten free noodles"
+   ],
+   "aliasesHU": [],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "tamari",
+   "name": "tamari",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "tamari",
+    "gluten-free soy sauce",
+    "gluten free soy sauce",
+    "gluten-free tamari"
+   ],
+   "aliasesHU": [
+    "gluténmentes szójaszósz"
+   ],
+   "family": null,
+   "staple": false
+  },
+  {
+   "id": "kukoricatortilla",
+   "name": "kukorica tortilla",
+   "category": "specialis",
+   "tags": [],
+   "aliasesEN": [
+    "corn tortillas",
+    "corn tortilla",
+    "taco shells",
+    "taco shell",
+    "tortilla chips",
+    "corn taco shells",
+    "tostadas",
+    "corn wraps"
+   ],
+   "aliasesHU": [
+    "taco héj"
+   ],
+   "family": null,
+   "staple": false
+  }
+ ]
+}

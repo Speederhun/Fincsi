@@ -1,0 +1,1091 @@
+{
+ "version": 1,
+ "substitutions": [
+  {
+   "ingredient": "liszt",
+   "diet": "glutenFree",
+   "to": "gluten_mentes_liszt",
+   "note": "Gluténmentes lisztkeverék, általában 1:1 arányban; rántáshoz, nokedlihez, palacsintához is jó."
+  },
+  {
+   "ingredient": "liszt",
+   "diet": "glutenFree",
+   "to": "rizsliszt",
+   "note": "Rizsliszt: palacsintához és rántáshoz jó, sütéshez keverd keményítővel."
+  },
+  {
+   "ingredient": "liszt",
+   "diet": "glutenFree",
+   "to": "kukoricakemenyito",
+   "note": "Kukoricakeményítő sűrítéshez: fele mennyiség elég."
+  },
+  {
+   "ingredient": "teljes_liszt",
+   "diet": "glutenFree",
+   "to": "gluten_mentes_liszt",
+   "note": "Gluténmentes lisztkeverék, 1:1 arányban."
+  },
+  {
+   "ingredient": "teljes_liszt",
+   "diet": "glutenFree",
+   "to": "hajdinaliszt",
+   "note": "Hajdinaliszt: természetesen gluténmentes, karakteres ízű."
+  },
+  {
+   "ingredient": "buzadara",
+   "diet": "glutenFree",
+   "to": "kukoricadara",
+   "note": "Kukoricadara 1:1 arányban."
+  },
+  {
+   "ingredient": "teszta",
+   "diet": "glutenFree",
+   "to": "gluten_mentes_teszta",
+   "note": "Gluténmentes száraztészta (kukorica vagy rizs); a főzési időt a csomagon nézd."
+  },
+  {
+   "ingredient": "teszta",
+   "diet": "glutenFree",
+   "to": "rizsteszta",
+   "note": "Rizstészta: gyorsan elkészül, a csomag szerint áztasd vagy főzd."
+  },
+  {
+   "ingredient": "tojasos_metelt",
+   "diet": "glutenFree",
+   "to": "gluten_mentes_teszta",
+   "note": "Gluténmentes száraztészta, a csomag szerint főzve."
+  },
+  {
+   "ingredient": "tojasos_metelt",
+   "diet": "glutenFree",
+   "to": "rizsteszta",
+   "note": "Rizstészta, a csomag szerint elkészítve."
+  },
+  {
+   "ingredient": "tojasos_metelt",
+   "diet": "vegan",
+   "to": "teszta",
+   "note": "Tojásmentes száraztészta (a legtöbb száraztészta tojás nélkül készül), a csomag szerint főzve."
+  },
+  {
+   "ingredient": "tarhonya",
+   "diet": "glutenFree",
+   "to": "rizs",
+   "note": "Rizs: tarhonya helyett pirítsd kevés zsiradékon, majd főzd meg."
+  },
+  {
+   "ingredient": "kuszkusz",
+   "diet": "glutenFree",
+   "to": "quinoa",
+   "note": "Quinoa 1:1 arányban, a csomag szerint főzve."
+  },
+  {
+   "ingredient": "kuszkusz",
+   "diet": "glutenFree",
+   "to": "rizs",
+   "note": "Rizs, a csomag szerint főzve."
+  },
+  {
+   "ingredient": "bulgur",
+   "diet": "glutenFree",
+   "to": "quinoa",
+   "note": "Quinoa 1:1 arányban."
+  },
+  {
+   "ingredient": "bulgur",
+   "diet": "glutenFree",
+   "to": "rizs",
+   "note": "Rizs 1:1 arányban."
+  },
+  {
+   "ingredient": "zabpehely",
+   "diet": "glutenFree",
+   "to": "gluten_mentes_zabpehely",
+   "note": "Kifejezetten gluténmentesnek jelölt zabpehely."
+  },
+  {
+   "ingredient": "arpagyongy",
+   "diet": "glutenFree",
+   "to": "rizs",
+   "note": "Rizs, hosszabb főzési idővel."
+  },
+  {
+   "ingredient": "arpagyongy",
+   "diet": "glutenFree",
+   "to": "hajdina",
+   "note": "Hajdina: hasonló állagú köret és levesbetét."
+  },
+  {
+   "ingredient": "kenyer",
+   "diet": "glutenFree",
+   "to": "gluten_mentes_kenyer",
+   "note": "Gluténmentes kenyér."
+  },
+  {
+   "ingredient": "zsemle",
+   "diet": "glutenFree",
+   "to": "gluten_mentes_kenyer",
+   "note": "Gluténmentes zsemle vagy kenyér."
+  },
+  {
+   "ingredient": "zsemlemorzsa",
+   "diet": "glutenFree",
+   "to": "gluten_mentes_morzsa",
+   "note": "Gluténmentes zsemlemorzsa."
+  },
+  {
+   "ingredient": "zsemlemorzsa",
+   "diet": "glutenFree",
+   "to": "kukoricadara",
+   "note": "Finomra őrölt kukoricadara: ropogós panírhoz jó."
+  },
+  {
+   "ingredient": "tortilla",
+   "diet": "glutenFree",
+   "to": "kukoricatortilla",
+   "note": "Kukoricatortilla."
+  },
+  {
+   "ingredient": "pita",
+   "diet": "glutenFree",
+   "to": "gluten_mentes_kenyer",
+   "note": "Gluténmentes lepény vagy kenyér."
+  },
+  {
+   "ingredient": "szojaszosz",
+   "diet": "glutenFree",
+   "to": "tamari",
+   "note": "Tamari: gluténmentes szójaszósz 1:1 arányban."
+  },
+  {
+   "ingredient": "virsli",
+   "diet": "glutenFree",
+   "to": "kolbasz",
+   "note": "Jó minőségű, gluténmentes kolbász (ellenőrizd a címkét)."
+  },
+  {
+   "ingredient": "sor",
+   "diet": "glutenFree",
+   "to": "gluten_mentes_sor",
+   "note": "Gluténmentes sör."
+  },
+  {
+   "ingredient": "tej",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_tej",
+   "note": "Laktózmentes tej 1:1 arányban."
+  },
+  {
+   "ingredient": "tej",
+   "diet": "lactoseFree",
+   "to": "zabital",
+   "note": "Zabital (gluténmentes jelöléssel is kapható)."
+  },
+  {
+   "ingredient": "tej",
+   "diet": "lactoseFree",
+   "to": "szojatej",
+   "note": "Szójatej 1:1 arányban."
+  },
+  {
+   "ingredient": "kefir",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_joghurt",
+   "note": "Laktózmentes joghurt kevés vízzel hígítva."
+  },
+  {
+   "ingredient": "tejfol",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_tejfol",
+   "note": "Laktózmentes tejföl 1:1 arányban."
+  },
+  {
+   "ingredient": "tejfol",
+   "diet": "lactoseFree",
+   "to": "novenyi_fozokrem",
+   "note": "Növényi főzőkrém 1 evőkanál citromlével savanyítva."
+  },
+  {
+   "ingredient": "tejszin",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_tejszin",
+   "note": "Laktózmentes tejszín 1:1 arányban."
+  },
+  {
+   "ingredient": "tejszin",
+   "diet": "lactoseFree",
+   "to": "novenyi_fozokrem",
+   "note": "Növényi főzőkrém 1:1 arányban."
+  },
+  {
+   "ingredient": "vaj",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_vaj",
+   "note": "Laktózmentes vaj 1:1 arányban."
+  },
+  {
+   "ingredient": "vaj",
+   "diet": "lactoseFree",
+   "to": "margarin",
+   "note": "Növényi margarin 1:1 arányban."
+  },
+  {
+   "ingredient": "joghurt",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_joghurt",
+   "note": "Laktózmentes joghurt 1:1 arányban."
+  },
+  {
+   "ingredient": "joghurt",
+   "diet": "lactoseFree",
+   "to": "novenyi_joghurt",
+   "note": "Növényi joghurt 1:1 arányban."
+  },
+  {
+   "ingredient": "turo",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_turo",
+   "note": "Laktózmentes túró 1:1 arányban."
+  },
+  {
+   "ingredient": "ricotta",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_turo",
+   "note": "Laktózmentes túró."
+  },
+  {
+   "ingredient": "kremsajt",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_sajt",
+   "note": "Lágy, laktózmentes sajt."
+  },
+  {
+   "ingredient": "sajt",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_sajt",
+   "note": "Laktózmentes sajt, reszelve."
+  },
+  {
+   "ingredient": "mozzarella",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_sajt",
+   "note": "Laktózmentes sajt, ami jól olvad."
+  },
+  {
+   "ingredient": "parmezan",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_sajt",
+   "note": "Laktózmentes kemény sajt, reszelve."
+  },
+  {
+   "ingredient": "feta",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_sajt",
+   "note": "Laktózmentes sajt, kockázva."
+  },
+  {
+   "ingredient": "cheddar",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_sajt",
+   "note": "Laktózmentes sajt."
+  },
+  {
+   "ingredient": "trappista",
+   "diet": "lactoseFree",
+   "to": "laktozmentes_sajt",
+   "note": "Laktózmentes trappista vagy más laktózmentes sajt."
+  },
+  {
+   "ingredient": "tejcsokolade",
+   "diet": "lactoseFree",
+   "to": "csokolade",
+   "note": "Étcsokoládé (a címkén ellenőrizd a tejnyomokat)."
+  },
+  {
+   "ingredient": "tej",
+   "diet": "vegan",
+   "to": "zabital",
+   "note": "Zabital 1:1 arányban; édes ételekhez a natúr jó."
+  },
+  {
+   "ingredient": "tej",
+   "diet": "vegan",
+   "to": "szojatej",
+   "note": "Szójatej 1:1 arányban; sós ételekhez is jó."
+  },
+  {
+   "ingredient": "tej",
+   "diet": "vegan",
+   "to": "rizsital",
+   "note": "Rizsital 1:1 arányban."
+  },
+  {
+   "ingredient": "tej",
+   "diet": "vegan",
+   "to": "mandulatej",
+   "note": "Mandulatej 1:1 arányban, főleg édes ételekhez."
+  },
+  {
+   "ingredient": "kefir",
+   "diet": "vegan",
+   "to": "szojatej",
+   "note": "Szójatej 1 teáskanál citromlével."
+  },
+  {
+   "ingredient": "tejfol",
+   "diet": "vegan",
+   "to": "novenyi_fozokrem",
+   "note": "Növényi főzőkrém 1 evőkanál citromlével vagy ecettel savanyítva."
+  },
+  {
+   "ingredient": "tejfol",
+   "diet": "vegan",
+   "to": "novenyi_joghurt",
+   "note": "Natúr növényi joghurt (szója vagy kókusz)."
+  },
+  {
+   "ingredient": "tejszin",
+   "diet": "vegan",
+   "to": "novenyi_fozokrem",
+   "note": "Növényi főzőkrém 1:1 arányban."
+  },
+  {
+   "ingredient": "tejszin",
+   "diet": "vegan",
+   "to": "kokusztej",
+   "note": "Kókusztej (a sűrűbb rész) 1:1 arányban."
+  },
+  {
+   "ingredient": "vaj",
+   "diet": "vegan",
+   "to": "margarin",
+   "note": "Növényi margarin 1:1 arányban."
+  },
+  {
+   "ingredient": "vaj",
+   "diet": "vegan",
+   "to": "olivaolaj",
+   "note": "Olívaolaj: kb. háromnegyed mennyiség, sós ételekhez."
+  },
+  {
+   "ingredient": "joghurt",
+   "diet": "vegan",
+   "to": "novenyi_joghurt",
+   "note": "Natúr növényi joghurt 1:1 arányban."
+  },
+  {
+   "ingredient": "turo",
+   "diet": "vegan",
+   "to": "tofu",
+   "note": "Összemorzsolt natúr tofu egy kevés citromlével."
+  },
+  {
+   "ingredient": "ricotta",
+   "diet": "vegan",
+   "to": "tofu",
+   "note": "Összemorzsolt natúr tofu citromlével és sóval."
+  },
+  {
+   "ingredient": "kremsajt",
+   "diet": "vegan",
+   "to": "novenyi_sajt",
+   "note": "Növényi krémsajt."
+  },
+  {
+   "ingredient": "sajt",
+   "diet": "vegan",
+   "to": "novenyi_sajt",
+   "note": "Növényi sajt reszelve vagy szeletelve."
+  },
+  {
+   "ingredient": "mozzarella",
+   "diet": "vegan",
+   "to": "novenyi_sajt",
+   "note": "Növényi, jól olvadó sajt."
+  },
+  {
+   "ingredient": "cheddar",
+   "diet": "vegan",
+   "to": "novenyi_sajt",
+   "note": "Növényi sajt."
+  },
+  {
+   "ingredient": "trappista",
+   "diet": "vegan",
+   "to": "novenyi_sajt",
+   "note": "Növényi sajt."
+  },
+  {
+   "ingredient": "parmezan",
+   "diet": "vegan",
+   "to": "eleszto_pehely",
+   "note": "Élesztőpehely: sajtos ízt ad, reszelt parmezán helyett."
+  },
+  {
+   "ingredient": "feta",
+   "diet": "vegan",
+   "to": "tofu",
+   "note": "Sózott, citromos-olajos tofu kockák."
+  },
+  {
+   "ingredient": "feta",
+   "diet": "vegan",
+   "to": "novenyi_sajt",
+   "note": "Növényi feta jellegű sajt."
+  },
+  {
+   "ingredient": "tojas",
+   "diet": "vegan",
+   "to": "lenmag",
+   "note": "1 tojás helyett 1 evőkanál őrölt lenmag + 3 evőkanál víz (5 perc állás után); sütéshez, palacsintához."
+  },
+  {
+   "ingredient": "tojas",
+   "diet": "vegan",
+   "to": "tofu",
+   "note": "Rántottához: összemorzsolt natúr tofu kurkumával és sóval."
+  },
+  {
+   "ingredient": "tojassarga",
+   "diet": "vegan",
+   "to": "lenmag",
+   "note": "Őrölt lenmag vízzel (1 evőkanál + 3 evőkanál víz)."
+  },
+  {
+   "ingredient": "majonez",
+   "diet": "vegan",
+   "to": "novenyi_majonez",
+   "note": "Növényi majonéz 1:1 arányban."
+  },
+  {
+   "ingredient": "mez",
+   "diet": "vegan",
+   "to": "juharszirup",
+   "note": "Juharszirup vagy agávészirup 1:1 arányban."
+  },
+  {
+   "ingredient": "tejcsokolade",
+   "diet": "vegan",
+   "to": "csokolade",
+   "note": "Tejmentes étcsokoládé."
+  },
+  {
+   "ingredient": "zselatin",
+   "diet": "vegan",
+   "to": "agar",
+   "note": "Agar-agar: 1 teáskanál kb. 1 lap zselatin, forralással old."
+  },
+  {
+   "ingredient": "zselatin",
+   "diet": "vegetarian",
+   "to": "agar",
+   "note": "Agar-agar: 1 teáskanál kb. 1 lap zselatin, forralással old."
+  },
+  {
+   "ingredient": "csirkemell",
+   "diet": "vegan",
+   "to": "tofu",
+   "note": "Natúr vagy füstölt tofu kockázva, sütve."
+  },
+  {
+   "ingredient": "csirkemell",
+   "diet": "vegan",
+   "to": "szeitan",
+   "note": "Szeitán: húsos állag, de búzafehérjéből készül, ezért gluténos."
+  },
+  {
+   "ingredient": "csirkemell",
+   "diet": "vegan",
+   "to": "csiperkegomba",
+   "note": "Vastag szeletekre vágott gomba, sütve."
+  },
+  {
+   "ingredient": "csirkemell",
+   "diet": "vegetarian",
+   "to": "tofu",
+   "note": "Natúr vagy füstölt tofu kockázva, sütve."
+  },
+  {
+   "ingredient": "csirkemell",
+   "diet": "vegetarian",
+   "to": "szeitan",
+   "note": "Szeitán: húsos állag, de gluténos."
+  },
+  {
+   "ingredient": "csirkemell",
+   "diet": "vegetarian",
+   "to": "csiperkegomba",
+   "note": "Vastag szeletekre vágott gomba, sütve."
+  },
+  {
+   "ingredient": "csirkecomb",
+   "diet": "vegan",
+   "to": "tofu",
+   "note": "Préselt, kockázott tofu, pirítva."
+  },
+  {
+   "ingredient": "csirkecomb",
+   "diet": "vegan",
+   "to": "szeitan",
+   "note": "Szeitán: húsos állag, de gluténos."
+  },
+  {
+   "ingredient": "csirkecomb",
+   "diet": "vegan",
+   "to": "csiperkegomba",
+   "note": "Nagy gombafejek, sütve."
+  },
+  {
+   "ingredient": "csirkecomb",
+   "diet": "vegetarian",
+   "to": "tofu",
+   "note": "Préselt, kockázott tofu, pirítva."
+  },
+  {
+   "ingredient": "csirkecomb",
+   "diet": "vegetarian",
+   "to": "szeitan",
+   "note": "Szeitán: húsos állag, de gluténos."
+  },
+  {
+   "ingredient": "csirkecomb",
+   "diet": "vegetarian",
+   "to": "csiperkegomba",
+   "note": "Nagy gombafejek, sütve."
+  },
+  {
+   "ingredient": "csirke",
+   "diet": "vegan",
+   "to": "tofu",
+   "note": "Préselt tofu vagy szeitán helyettesíti."
+  },
+  {
+   "ingredient": "csirke",
+   "diet": "vegetarian",
+   "to": "tofu",
+   "note": "Préselt tofu helyettesíti."
+  },
+  {
+   "ingredient": "csirkemaj",
+   "diet": "vegan",
+   "to": "csiperkegomba",
+   "note": "Pirított gomba."
+  },
+  {
+   "ingredient": "csirkemaj",
+   "diet": "vegetarian",
+   "to": "csiperkegomba",
+   "note": "Pirított gomba."
+  },
+  {
+   "ingredient": "serteshus",
+   "diet": "vegan",
+   "to": "szojadarab",
+   "note": "Szójadarab: langyos vízben beáztatva, majd csavard ki; pörkölthöz, gulyáshoz jó."
+  },
+  {
+   "ingredient": "serteshus",
+   "diet": "vegan",
+   "to": "csiperkegomba",
+   "note": "Gomba: gombapörkölt vagy gombás ragu lesz belőle."
+  },
+  {
+   "ingredient": "serteshus",
+   "diet": "vegan",
+   "to": "szeitan",
+   "note": "Szeitán: húsos állag, de gluténos."
+  },
+  {
+   "ingredient": "serteshus",
+   "diet": "vegetarian",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva, kicsavarva."
+  },
+  {
+   "ingredient": "serteshus",
+   "diet": "vegetarian",
+   "to": "csiperkegomba",
+   "note": "Gomba: gombapörkölt vagy gombás ragu lesz belőle."
+  },
+  {
+   "ingredient": "serteshus",
+   "diet": "vegetarian",
+   "to": "szeitan",
+   "note": "Szeitán: húsos állag, de gluténos."
+  },
+  {
+   "ingredient": "marhahus",
+   "diet": "vegan",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva, kicsavarva."
+  },
+  {
+   "ingredient": "marhahus",
+   "diet": "vegan",
+   "to": "csiperkegomba",
+   "note": "Gomba, hosszabban párolva."
+  },
+  {
+   "ingredient": "marhahus",
+   "diet": "vegan",
+   "to": "szeitan",
+   "note": "Szeitán: húsos állag, de gluténos."
+  },
+  {
+   "ingredient": "marhahus",
+   "diet": "vegetarian",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva, kicsavarva."
+  },
+  {
+   "ingredient": "marhahus",
+   "diet": "vegetarian",
+   "to": "csiperkegomba",
+   "note": "Gomba, hosszabban párolva."
+  },
+  {
+   "ingredient": "marhahus",
+   "diet": "vegetarian",
+   "to": "szeitan",
+   "note": "Szeitán: húsos állag, de gluténos."
+  },
+  {
+   "ingredient": "daralt_marha",
+   "diet": "vegan",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva, kicsavarva."
+  },
+  {
+   "ingredient": "daralt_marha",
+   "diet": "vegan",
+   "to": "lencse",
+   "note": "Főtt barna lencse, nagyjából 1:1 arányban."
+  },
+  {
+   "ingredient": "daralt_marha",
+   "diet": "vegetarian",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva, kicsavarva."
+  },
+  {
+   "ingredient": "daralt_marha",
+   "diet": "vegetarian",
+   "to": "lencse",
+   "note": "Főtt barna lencse."
+  },
+  {
+   "ingredient": "daralt_sertes",
+   "diet": "vegan",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva, kicsavarva."
+  },
+  {
+   "ingredient": "daralt_sertes",
+   "diet": "vegan",
+   "to": "lencse",
+   "note": "Főtt barna lencse."
+  },
+  {
+   "ingredient": "daralt_sertes",
+   "diet": "vegetarian",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva, kicsavarva."
+  },
+  {
+   "ingredient": "daralt_sertes",
+   "diet": "vegetarian",
+   "to": "lencse",
+   "note": "Főtt barna lencse."
+  },
+  {
+   "ingredient": "daralthus",
+   "diet": "vegan",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva, kicsavarva."
+  },
+  {
+   "ingredient": "daralthus",
+   "diet": "vegan",
+   "to": "lencse",
+   "note": "Főtt barna lencse."
+  },
+  {
+   "ingredient": "daralthus",
+   "diet": "vegetarian",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva, kicsavarva."
+  },
+  {
+   "ingredient": "daralthus",
+   "diet": "vegetarian",
+   "to": "lencse",
+   "note": "Főtt barna lencse."
+  },
+  {
+   "ingredient": "barany",
+   "diet": "vegan",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva, kicsavarva."
+  },
+  {
+   "ingredient": "barany",
+   "diet": "vegan",
+   "to": "csiperkegomba",
+   "note": "Gomba."
+  },
+  {
+   "ingredient": "barany",
+   "diet": "vegetarian",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva, kicsavarva."
+  },
+  {
+   "ingredient": "barany",
+   "diet": "vegetarian",
+   "to": "csiperkegomba",
+   "note": "Gomba."
+  },
+  {
+   "ingredient": "kacsa",
+   "diet": "vegan",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva."
+  },
+  {
+   "ingredient": "kacsa",
+   "diet": "vegetarian",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva."
+  },
+  {
+   "ingredient": "pulyka",
+   "diet": "vegan",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva."
+  },
+  {
+   "ingredient": "pulyka",
+   "diet": "vegan",
+   "to": "tofu",
+   "note": "Préselt tofu."
+  },
+  {
+   "ingredient": "pulyka",
+   "diet": "vegetarian",
+   "to": "szojadarab",
+   "note": "Szójadarab beáztatva."
+  },
+  {
+   "ingredient": "pulyka",
+   "diet": "vegetarian",
+   "to": "tofu",
+   "note": "Préselt tofu."
+  },
+  {
+   "ingredient": "szalonna",
+   "diet": "vegan",
+   "to": "fustolt_tofu",
+   "note": "Füstölt tofu apró kockákra vágva, kevés olajon pirítva."
+  },
+  {
+   "ingredient": "szalonna",
+   "diet": "vegetarian",
+   "to": "fustolt_tofu",
+   "note": "Füstölt tofu apró kockákra vágva, kevés olajon pirítva."
+  },
+  {
+   "ingredient": "kolbasz",
+   "diet": "vegan",
+   "to": "novenyi_kolbasz",
+   "note": "Növényi kolbász."
+  },
+  {
+   "ingredient": "kolbasz",
+   "diet": "vegan",
+   "to": "fustolt_tofu",
+   "note": "Füstölt tofu karikázva, pirítva."
+  },
+  {
+   "ingredient": "kolbasz",
+   "diet": "vegetarian",
+   "to": "novenyi_kolbasz",
+   "note": "Növényi kolbász."
+  },
+  {
+   "ingredient": "kolbasz",
+   "diet": "vegetarian",
+   "to": "fustolt_tofu",
+   "note": "Füstölt tofu karikázva, pirítva."
+  },
+  {
+   "ingredient": "virsli",
+   "diet": "vegan",
+   "to": "novenyi_kolbasz",
+   "note": "Növényi virsli vagy kolbász."
+  },
+  {
+   "ingredient": "virsli",
+   "diet": "vegetarian",
+   "to": "novenyi_kolbasz",
+   "note": "Növényi virsli vagy kolbász."
+  },
+  {
+   "ingredient": "sonka",
+   "diet": "vegan",
+   "to": "fustolt_tofu",
+   "note": "Füstölt tofu szeletelve."
+  },
+  {
+   "ingredient": "sonka",
+   "diet": "vegetarian",
+   "to": "fustolt_tofu",
+   "note": "Füstölt tofu szeletelve."
+  },
+  {
+   "ingredient": "sertezsir",
+   "diet": "vegan",
+   "to": "etolaj",
+   "note": "Étolaj 1:1 arányban."
+  },
+  {
+   "ingredient": "sertezsir",
+   "diet": "vegan",
+   "to": "olivaolaj",
+   "note": "Olívaolaj 1:1 arányban."
+  },
+  {
+   "ingredient": "sertezsir",
+   "diet": "vegetarian",
+   "to": "etolaj",
+   "note": "Étolaj 1:1 arányban."
+  },
+  {
+   "ingredient": "sertezsir",
+   "diet": "vegetarian",
+   "to": "olivaolaj",
+   "note": "Olívaolaj 1:1 arányban."
+  },
+  {
+   "ingredient": "libazsir",
+   "diet": "vegan",
+   "to": "etolaj",
+   "note": "Étolaj 1:1 arányban."
+  },
+  {
+   "ingredient": "libazsir",
+   "diet": "vegetarian",
+   "to": "etolaj",
+   "note": "Étolaj 1:1 arányban."
+  },
+  {
+   "ingredient": "csirkealaple",
+   "diet": "vegan",
+   "to": "zoldseg_alaple",
+   "note": "Zöldség alaplé 1:1 arányban."
+  },
+  {
+   "ingredient": "csirkealaple",
+   "diet": "vegetarian",
+   "to": "zoldseg_alaple",
+   "note": "Zöldség alaplé 1:1 arányban."
+  },
+  {
+   "ingredient": "marhaalaple",
+   "diet": "vegan",
+   "to": "zoldseg_alaple",
+   "note": "Zöldség alaplé 1:1 arányban."
+  },
+  {
+   "ingredient": "marhaalaple",
+   "diet": "vegetarian",
+   "to": "zoldseg_alaple",
+   "note": "Zöldség alaplé 1:1 arányban."
+  },
+  {
+   "ingredient": "lazac",
+   "diet": "vegan",
+   "to": "tofu",
+   "note": "Marinált, sült tofu szeletek."
+  },
+  {
+   "ingredient": "lazac",
+   "diet": "vegetarian",
+   "to": "tofu",
+   "note": "Marinált, sült tofu szeletek."
+  },
+  {
+   "ingredient": "tonhal",
+   "diet": "vegan",
+   "to": "csiperkegomba",
+   "note": "Apróra vágott, pirított gomba."
+  },
+  {
+   "ingredient": "tonhal",
+   "diet": "vegan",
+   "to": "csicseriborso",
+   "note": "Villával összetört csicseriborsó: tonhalsalátához."
+  },
+  {
+   "ingredient": "tonhal",
+   "diet": "vegetarian",
+   "to": "csicseriborso",
+   "note": "Villával összetört csicseriborsó: tonhalsalátához."
+  },
+  {
+   "ingredient": "ponty",
+   "diet": "vegan",
+   "to": "tofu",
+   "note": "Tofu, halászléhez erős fűszerezéssel."
+  },
+  {
+   "ingredient": "ponty",
+   "diet": "vegetarian",
+   "to": "tofu",
+   "note": "Tofu, halászléhez erős fűszerezéssel."
+  },
+  {
+   "ingredient": "feher_hal",
+   "diet": "vegan",
+   "to": "tofu",
+   "note": "Szeletelt tofu, panírozva vagy sütve."
+  },
+  {
+   "ingredient": "feher_hal",
+   "diet": "vegetarian",
+   "to": "tofu",
+   "note": "Szeletelt tofu, panírozva vagy sütve."
+  },
+  {
+   "ingredient": "garnela",
+   "diet": "vegan",
+   "to": "laskagomba",
+   "note": "Csíkokra szakított laskagomba."
+  },
+  {
+   "ingredient": "garnela",
+   "diet": "vegetarian",
+   "to": "laskagomba",
+   "note": "Csíkokra szakított laskagomba."
+  },
+  {
+   "ingredient": "szardella",
+   "diet": "vegan",
+   "to": "kapribogyo",
+   "note": "Kapribogyó: sós, karakteres ízt ad."
+  },
+  {
+   "ingredient": "szardella",
+   "diet": "vegetarian",
+   "to": "kapribogyo",
+   "note": "Kapribogyó: sós, karakteres ízt ad."
+  },
+  {
+   "ingredient": "halszosz",
+   "diet": "vegan",
+   "to": "szojaszosz",
+   "note": "Szójaszósz 1:1 arányban."
+  },
+  {
+   "ingredient": "halszosz",
+   "diet": "vegetarian",
+   "to": "szojaszosz",
+   "note": "Szójaszósz 1:1 arányban."
+  },
+  {
+   "ingredient": "halszosz",
+   "diet": "vegan",
+   "to": "tamari",
+   "note": "Tamari 1:1 arányban."
+  },
+  {
+   "ingredient": "halszosz",
+   "diet": "vegetarian",
+   "to": "tamari",
+   "note": "Tamari 1:1 arányban."
+  },
+  {
+   "ingredient": "osztrigaszosz",
+   "diet": "vegan",
+   "to": "szojaszosz",
+   "note": "Szójaszósz egy kevés cukorral."
+  },
+  {
+   "ingredient": "osztrigaszosz",
+   "diet": "vegetarian",
+   "to": "szojaszosz",
+   "note": "Szójaszósz egy kevés cukorral."
+  },
+  {
+   "ingredient": "worcestershire",
+   "diet": "vegan",
+   "to": "szojaszosz",
+   "note": "Szójaszósz egy kevés ecettel."
+  },
+  {
+   "ingredient": "worcestershire",
+   "diet": "vegetarian",
+   "to": "szojaszosz",
+   "note": "Szójaszósz egy kevés ecettel."
+  },
+  {
+   "ingredient": "dio",
+   "diet": "nutFree",
+   "to": "napraforgomag",
+   "note": "Napraforgómag, pirítva."
+  },
+  {
+   "ingredient": "dio",
+   "diet": "nutFree",
+   "to": "tokmag",
+   "note": "Tökmag."
+  },
+  {
+   "ingredient": "mogyoro",
+   "diet": "nutFree",
+   "to": "napraforgomag",
+   "note": "Napraforgómag."
+  },
+  {
+   "ingredient": "mandula",
+   "diet": "nutFree",
+   "to": "napraforgomag",
+   "note": "Napraforgómag vagy kókuszreszelék."
+  },
+  {
+   "ingredient": "mandula",
+   "diet": "nutFree",
+   "to": "kokuszreszelek",
+   "note": "Kókuszreszelék."
+  },
+  {
+   "ingredient": "pisztacia",
+   "diet": "nutFree",
+   "to": "tokmag",
+   "note": "Tökmag."
+  },
+  {
+   "ingredient": "kesudio",
+   "diet": "nutFree",
+   "to": "tokmag",
+   "note": "Tökmag."
+  },
+  {
+   "ingredient": "foldimogyoro",
+   "diet": "nutFree",
+   "to": "napraforgomag",
+   "note": "Napraforgómag."
+  },
+  {
+   "ingredient": "mandulatej",
+   "diet": "nutFree",
+   "to": "zabital",
+   "note": "Zabital."
+  },
+  {
+   "ingredient": "mandulatej",
+   "diet": "nutFree",
+   "to": "szojatej",
+   "note": "Szójatej."
+  }
+ ]
+}

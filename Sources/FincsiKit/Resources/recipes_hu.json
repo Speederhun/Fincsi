@@ -1,0 +1,4272 @@
+{
+ "version": 1,
+ "recipes": [
+  {
+   "id": "b-gulyasleves",
+   "title": "Gulyásleves",
+   "summary": "Az igazi, csipetkés gulyásleves: lassan főtt marhahús, sok zöldség és fűszerpaprika.",
+   "course": "leves",
+   "servings": 6,
+   "prepMinutes": 30,
+   "cookMinutes": 120,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "marhahus",
+     "unit": "dkg",
+     "amount": 60.0,
+     "note": "lapockából, kockára vágva"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "ek",
+     "amount": 2.0,
+     "note": "édes"
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0,
+     "note": "zúzva"
+    },
+    {
+     "id": "komeny",
+     "unit": "tk",
+     "amount": 1.0,
+     "note": "őrölt"
+    },
+    {
+     "id": "burgonya",
+     "unit": "dkg",
+     "amount": 50.0,
+     "note": "kockára vágva"
+    },
+    {
+     "id": "sargarepa",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "karikázva"
+    },
+    {
+     "id": "petrezselyemgyoker",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "karikázva"
+    },
+    {
+     "id": "paprika",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "paradicsom",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "baberlevel",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "chili",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "ízlés szerint",
+     "optional": true
+    },
+    {
+     "id": "liszt",
+     "unit": "dkg",
+     "amount": 10.0,
+     "note": "a csipetkéhez"
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "a csipetkéhez"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "l",
+     "amount": 2.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olajon üvegesre pirítsd a hagymát, vedd le a tűzről, és keverd bele a fűszerpaprikát, nehogy megégjen.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Add hozzá a húst, a fokhagymát, a köményt és a sót, és időnként keverve pároljd, amíg a hús kiengedi a levét.",
+     "timerMinutes": 20
+    },
+    {
+     "text": "Öntsd fel a vízzel, tedd bele a babérlevelet, és lassú tűzön főzd, amíg a hús félig megpuhul.",
+     "timerMinutes": 60
+    },
+    {
+     "text": "Add hozzá a répát, a gyökeret, a paprikát és a paradicsomot, 10 perc múlva a burgonyát is, és főzd puhára.",
+     "timerMinutes": 25
+    },
+    {
+     "text": "A liszből, a tojásból, egy csipet sóból és kevés vízből gyúrj kemény tésztát, csipkedd a levesbe, és főzd 5 percig.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Ízlés szerint sózd, és csípős paprikával tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-husleves",
+   "title": "Húsleves",
+   "summary": "Tiszta, aranyszínű húsleves csirkéből és marhából, cérnametélttel.",
+   "course": "leves",
+   "servings": 6,
+   "prepMinutes": 20,
+   "cookMinutes": 150,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "csirke",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "kb. 1,5 kg-os, negyedelve"
+    },
+    {
+     "id": "marhahus",
+     "unit": "dkg",
+     "amount": 30.0,
+     "note": "csontos leveshús",
+     "optional": true
+    },
+    {
+     "id": "sargarepa",
+     "unit": "db",
+     "amount": 3.0
+    },
+    {
+     "id": "petrezselyemgyoker",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "zellergyoker",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "kisebb"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "héjastul, megpörkölve"
+    },
+    {
+     "id": "paradicsom",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "bors",
+     "unit": "tk",
+     "amount": 1.0,
+     "note": "egész szemes"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "l",
+     "amount": 3.0
+    },
+    {
+     "id": "tojasos_metelt",
+     "unit": "dkg",
+     "amount": 15.0,
+     "note": "cérnametélt"
+    },
+    {
+     "id": "petrezselyem",
+     "unit": "csokor",
+     "amount": 0.5,
+     "note": "tálaláshoz"
+    }
+   ],
+   "steps": [
+    {
+     "text": "Tedd a húsokat hideg vízbe, lassan forrald fel, és szedd le a habját.",
+     "timerMinutes": 20
+    },
+    {
+     "text": "Add hozzá a zöldségeket, a fokhagymát és a borsot, sózd, és takarékon főzd, amíg a hús puha.",
+     "timerMinutes": 120
+    },
+    {
+     "text": "A húst és a zöldségeket szedd ki, a levest szűrd le."
+    },
+    {
+     "text": "A tésztát külön, sós vízben főzd meg, hogy a leves tiszta maradjon.",
+     "timerMinutes": 6
+    },
+    {
+     "text": "Tálald: a tésztára merd a levest, tedd mellé a szeletelt húst és a répát, szórd meg petrezselyemmel."
+    }
+   ]
+  },
+  {
+   "id": "b-paradicsomleves",
+   "title": "Paradicsomleves tésztával",
+   "summary": "Gyermekkori klasszikus: sűrű paradicsomleves apró tésztával.",
+   "course": "leves",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 30,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "konzerv_paradicsom",
+     "unit": "doboz",
+     "amount": 1.0,
+     "note": "400 g"
+    },
+    {
+     "id": "paradicsompure",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "liszt",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "cukor",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "l",
+     "amount": 1.0
+    },
+    {
+     "id": "teszta",
+     "unit": "dkg",
+     "amount": 10.0,
+     "note": "apró tészta (csillag vagy kocka)"
+    },
+    {
+     "id": "tejszin",
+     "unit": "dl",
+     "amount": 1.0,
+     "note": "ízlés szerint",
+     "optional": true
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olajon világosra pirítsd a lisztet, vedd le a tűzről, és add hozzá a paradicsompürét.",
+     "timerMinutes": 4
+    },
+    {
+     "text": "Öntsd fel a vízzel, keverd el csomómentesre, add hozzá a paradicsomot, a cukrot és a sót.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "Főzd közben a tésztát sós vízben, majd csepegtesd le.",
+     "timerMinutes": 8
+    },
+    {
+     "text": "A levest turmixold simára, ízlés szerint keverd bele a tejszínt, és tálald a tésztával."
+    }
+   ]
+  },
+  {
+   "id": "b-burgonyaleves",
+   "title": "Burgonyaleves",
+   "summary": "Sűrű, fűszerpaprikás burgonyaleves tejföllel.",
+   "course": "leves",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 35,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "burgonya",
+     "unit": "dkg",
+     "amount": 60.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "sargarepa",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "karikázva"
+    },
+    {
+     "id": "petrezselyemgyoker",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "karikázva"
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "kolbasz",
+     "unit": "dkg",
+     "amount": 10.0,
+     "note": "karikázva",
+     "optional": true
+    },
+    {
+     "id": "baberlevel",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "majoranna",
+     "unit": "tk",
+     "amount": 0.5
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 1.0
+    },
+    {
+     "id": "liszt",
+     "unit": "ek",
+     "amount": 1.0,
+     "note": "a habaráshoz"
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 1.0,
+     "note": "a habaráshoz"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "l",
+     "amount": 1.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olajon üvegesítsd a hagymát, vedd le a tűzről, és keverd bele a fűszerpaprikát.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Add hozzá a burgonyát, a répát, a gyökeret, a babérlevelet, a majoránnát és a fokhagymát, majd öntsd fel a vízzel.",
+     "timerMinutes": 2
+    },
+    {
+     "text": "Sózd, és főzd puhára, ha használsz kolbászt, a végén add hozzá.",
+     "timerMinutes": 25
+    },
+    {
+     "text": "A tejfölt keverd el a liszttel, habard be vele a levest, és forrald fel még egyszer.",
+     "timerMinutes": 3
+    }
+   ]
+  },
+  {
+   "id": "b-lencseleves",
+   "title": "Lencseleves",
+   "summary": "Laktató lencseleves füstölt kolbásszal és egy kevés ecettel.",
+   "course": "leves",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 45,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "lencse",
+     "unit": "dkg",
+     "amount": 25.0,
+     "note": "barna, átmosva"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "sargarepa",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "petrezselyemgyoker",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "kolbasz",
+     "unit": "dkg",
+     "amount": 15.0,
+     "note": "füstölt, karikázva",
+     "optional": true
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "baberlevel",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "ecet",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "tejfol",
+     "unit": "ek",
+     "amount": 2.0,
+     "note": "tálaláshoz",
+     "optional": true
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "l",
+     "amount": 1.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olajon üvegesre pirítsd a hagymát, majd keverd bele a fűszerpaprikát.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Add hozzá a lencsét, a felkockázott zöldségeket, a fokhagymát és a babérlevelet, majd öntsd fel a vízzel.",
+     "timerMinutes": 2
+    },
+    {
+     "text": "Főzd puhára, a végén sózd, add hozzá a kolbászt, és ízesítsd ecettel.",
+     "timerMinutes": 35
+    },
+    {
+     "text": "Tálald tejföllel."
+    }
+   ]
+  },
+  {
+   "id": "b-gombaleves",
+   "title": "Gombaleves",
+   "summary": "Krémes gombaleves tejföllel és petrezselyemmel.",
+   "course": "leves",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 30,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "csiperkegomba",
+     "unit": "dkg",
+     "amount": 50.0,
+     "note": "szeletelve"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "vaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "liszt",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 1.5
+    },
+    {
+     "id": "petrezselyem",
+     "unit": "csokor",
+     "amount": 0.5,
+     "note": "aprítva"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "l",
+     "amount": 1.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "A vajon üvegesítsd a hagymát, vedd le a tűzről, keverd bele a fűszerpaprikát, majd add hozzá a gombát.",
+     "timerMinutes": 12
+    },
+    {
+     "text": "Szórd meg liszttel, keverd át, és öntsd fel a vízzel.",
+     "timerMinutes": 2
+    },
+    {
+     "text": "Sózd, borsozd, és főzd puhára.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "A tejfölt keverd el kevés levessel, habard be vele a levest, és szórd meg petrezselyemmel."
+    }
+   ]
+  },
+  {
+   "id": "b-bableves",
+   "title": "Bableves",
+   "summary": "Füstölt kolbászos, tejfölös bableves, a magyar konyha egyik alapja.",
+   "course": "leves",
+   "servings": 6,
+   "prepMinutes": 20,
+   "cookMinutes": 90,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "bab",
+     "unit": "dkg",
+     "amount": 30.0,
+     "note": "szárazbab, előző este beáztatva"
+    },
+    {
+     "id": "sargarepa",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "petrezselyemgyoker",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "szalonna",
+     "unit": "dkg",
+     "amount": 10.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "kolbasz",
+     "unit": "dkg",
+     "amount": 20.0,
+     "note": "füstölt, karikázva"
+    },
+    {
+     "id": "liszt",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "ecet",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 2.0
+    },
+    {
+     "id": "baberlevel",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "l",
+     "amount": 2.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az áztatóvizet öntsd le, a babot főzd 2 liter friss vízben a babérlevéllel.",
+     "timerMinutes": 45
+    },
+    {
+     "text": "Add hozzá a felkockázott zöldségeket, és főzd tovább, amíg minden megpuhul.",
+     "timerMinutes": 30
+    },
+    {
+     "text": "A szalonnát kisütve rántsd be a liszttel és a fűszerpaprikával, majd keverd a levesbe, add hozzá a kolbászt.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Sózd, ízesítsd ecettel, és tejföllel tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-sutotokkremleves",
+   "title": "Sütőtök-krémleves",
+   "summary": "Selymes, gyömbéres sütőtökkrém, tökmaggal.",
+   "course": "leves",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 30,
+   "tags": [
+    "magyar",
+    "vegán-barát"
+   ],
+   "ingredients": [
+    {
+     "id": "sutotok",
+     "unit": "dkg",
+     "amount": 80.0,
+     "note": "hámozva, kockázva"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 1.0
+    },
+    {
+     "id": "gyomber",
+     "unit": "ek",
+     "amount": 1.0,
+     "note": "reszelve"
+    },
+    {
+     "id": "olivaolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "tejszin",
+     "unit": "dl",
+     "amount": 1.0
+    },
+    {
+     "id": "zoldseg_alaple",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "kocka",
+     "optional": true
+    },
+    {
+     "id": "szerecsendio",
+     "unit": "csipet",
+     "amount": 1.0,
+     "optional": true
+    },
+    {
+     "id": "tokmag",
+     "unit": "ek",
+     "amount": 2.0,
+     "note": "tálaláshoz",
+     "optional": true
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "l",
+     "amount": 1.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olívaolajon üvegesítsd a hagymát a fokhagymával és a gyömbérrel.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Add hozzá a tököt, öntsd fel a vízzel, tedd bele az alaplékockát, és főzd puhára.",
+     "timerMinutes": 20
+    },
+    {
+     "text": "Turmixold simára, keverd bele a tejszínt, sózd, borsozd, és ízlés szerint szerecsendióval ízesítsd.",
+     "timerMinutes": 3
+    },
+    {
+     "text": "Tálald pirított tökmaggal."
+    }
+   ]
+  },
+  {
+   "id": "b-tokfozelek",
+   "title": "Tökfőzelék",
+   "summary": "Kapros, tejfölös tökfőzelék, ahogy otthon készült.",
+   "course": "fozelek",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 25,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "cukkini",
+     "unit": "dkg",
+     "amount": 80.0,
+     "note": "héjastul reszelve"
+    },
+    {
+     "id": "kapor",
+     "unit": "csokor",
+     "amount": 0.5,
+     "note": "aprítva"
+    },
+    {
+     "id": "liszt",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 2.0
+    },
+    {
+     "id": "ecet",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "cukor",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 1.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A reszelt tököt sózd meg, hagyd állni 10 percig, majd nyomkodd ki a levét (a levét tartsd meg).",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Az olajon világosra pirítsd a lisztet, add hozzá a fokhagymát, és öntsd fel a tök levével, simára keverve.",
+     "timerMinutes": 4
+    },
+    {
+     "text": "Add hozzá a tököt, a kaprot, az ecetet és a cukrot, és főzd 10 percig.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "A tejfölt keverd el kevés főzelékkel, majd keverd vissza, és forrald fel még egyszer."
+    }
+   ]
+  },
+  {
+   "id": "b-lencsefozelek",
+   "title": "Lencsefőzelék",
+   "summary": "Sűrű lencsefőzelék ecettel, kolbásszal vagy tükörtojással.",
+   "course": "fozelek",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 35,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "lencse",
+     "unit": "dkg",
+     "amount": 25.0,
+     "note": "barna, átmosva"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "liszt",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "ecet",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "cukor",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "baberlevel",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "kolbasz",
+     "unit": "dkg",
+     "amount": 15.0,
+     "note": "füstölt, karikázva",
+     "optional": true
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 6.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "A lencsét főzd meg a babérlevéllel egy nagy lábasban, sózd a végén.",
+     "timerMinutes": 30
+    },
+    {
+     "text": "Közben az olajon pirítsd világosra a lisztet, add hozzá a hagymát és a fokhagymát, és keverd bele a fűszerpaprikát."
+    },
+    {
+     "text": "Habard be vele a főzeléket, add hozzá az ecetet és a cukrot, és főzd még 5 percig.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Ízlés szerint tegyél bele kolbászt, és tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-spenotfozelek",
+   "title": "Spenótfőzelék",
+   "summary": "Fokhagymás spenótfőzelék, tükörtojással igazán jó.",
+   "course": "fozelek",
+   "servings": 3,
+   "prepMinutes": 10,
+   "cookMinutes": 20,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "spenot",
+     "unit": "dkg",
+     "amount": 50.0,
+     "note": "fagyasztott"
+    },
+    {
+     "id": "tej",
+     "unit": "dl",
+     "amount": 2.0
+    },
+    {
+     "id": "liszt",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "vaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0,
+     "note": "zúzva"
+    },
+    {
+     "id": "szerecsendio",
+     "unit": "csipet",
+     "amount": 1.0,
+     "optional": true
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 3.0,
+     "note": "tükörtojásnak",
+     "optional": true
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A fagyasztott spenótot olvaszd ki, és kevés vízzel főzd puhára.",
+     "timerMinutes": 8
+    },
+    {
+     "text": "A vajon pirítsd világosra a lisztet, add hozzá a fokhagymát, és öntsd fel a tejjel, simára keverve.",
+     "timerMinutes": 4
+    },
+    {
+     "text": "Keverd hozzá a spenótot, sózd, ízlés szerint szerecsendióval ízesítsd, és főzd össze.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Süss mellé tükörtojást, és tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-zoldborsofozelek",
+   "title": "Zöldborsófőzelék",
+   "summary": "Édeskés, sűrű zöldborsófőzelék répával.",
+   "course": "fozelek",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 25,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "zoldborso",
+     "unit": "dkg",
+     "amount": 50.0,
+     "note": "fagyasztott"
+    },
+    {
+     "id": "sargarepa",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "liszt",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "cukor",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "petrezselyem",
+     "unit": "csokor",
+     "amount": 0.5,
+     "note": "aprítva"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 3.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "A répát főzd 10 percig sós vízben, majd add hozzá a borsót, és főzd puhára.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "Az olajon világosra pirítsd a lisztet, öntsd fel kevés vízzel, és habard be vele a főzeléket.",
+     "timerMinutes": 4
+    },
+    {
+     "text": "Ízesítsd cukorral, sóval, és szórd meg friss petrezselyemmel."
+    }
+   ]
+  },
+  {
+   "id": "b-rakottkrumpli",
+   "title": "Rakott krumpli",
+   "summary": "Rétegzett burgonya, főtt tojás, kolbász és sok tejföl.",
+   "course": "foetel",
+   "servings": 6,
+   "prepMinutes": 30,
+   "cookMinutes": 50,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "burgonya",
+     "unit": "kg",
+     "amount": 1.0
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 6.0
+    },
+    {
+     "id": "kolbasz",
+     "unit": "dkg",
+     "amount": 25.0,
+     "note": "füstölt, karikázva"
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 4.0
+    },
+    {
+     "id": "sajt",
+     "unit": "dkg",
+     "amount": 10.0,
+     "note": "reszelve",
+     "optional": true
+    },
+    {
+     "id": "vaj",
+     "unit": "ek",
+     "amount": 2.0,
+     "note": "a tepsihez"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A burgonyát főzd meg héjában, a tojásokat keményre. Hámozd és szeleteld fel mindkettőt.",
+     "timerMinutes": 25
+    },
+    {
+     "text": "Vajazz ki egy tepsit, és rakj bele réteget burgonyából, sózd, majd tojásból és kolbászból.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Minden réteget kend meg tejföllel, az utolsó réteg burgonya legyen, kend meg tejföllel, és szórd meg sajttal."
+    },
+    {
+     "text": "Süsd előmelegített 200 fokos sütőben aranybarnára.",
+     "timerMinutes": 30
+    }
+   ]
+  },
+  {
+   "id": "b-paprikaskrumpli",
+   "title": "Paprikás krumpli",
+   "summary": "Egytálétel kolbásszal és paprikával.",
+   "course": "foetel",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 35,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "burgonya",
+     "unit": "kg",
+     "amount": 1.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "kolbasz",
+     "unit": "dkg",
+     "amount": 25.0,
+     "note": "füstölt, karikázva"
+    },
+    {
+     "id": "paprika",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "paradicsom",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 5.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olajon üvegesítsd a hagymát, vedd le a tűzről, és keverd bele a fűszerpaprikát.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Add hozzá a kolbászt, a paprikát, a paradicsomot és a fokhagymát, és pároljd 5 percig.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Tedd bele a burgonyát, sózd, öntsd fel vízzel, és főzd puhára, időnként megkeverve.",
+     "timerMinutes": 25
+    }
+   ]
+  },
+  {
+   "id": "b-lecso",
+   "title": "Lecsó",
+   "summary": "Nyári klasszikus: paprika, paradicsom és hagyma, tojással vagy kolbásszal is.",
+   "course": "foetel",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 30,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "paprika",
+     "unit": "kg",
+     "amount": 1.0,
+     "note": "TV paprika, csíkokra vágva"
+    },
+    {
+     "id": "paradicsom",
+     "unit": "dkg",
+     "amount": 60.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "kolbasz",
+     "unit": "dkg",
+     "amount": 25.0,
+     "note": "karikázva",
+     "optional": true
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 4.0,
+     "optional": true
+    },
+    {
+     "id": "cukor",
+     "unit": "csipet",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olajon üvegesítsd a hagymát, vedd le a tűzről, és keverd bele a fűszerpaprikát.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Add hozzá a paprikát, sózd, és fedő alatt pároljd puhára.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Add hozzá a paradicsomot és egy csipet cukrot, majd főzd, amíg besűrűsödik, ha kolbásszal készíted, ekkor tedd bele.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "Tojásos lecsóhoz verd fel a tojásokat, és keverd a forró lecsóba, hogy összeálljon."
+    }
+   ]
+  },
+  {
+   "id": "b-csirkepaprikas",
+   "title": "Csirkepaprikás nokedlivel",
+   "summary": "Tejfölös csirkepaprikás, házi nokedlivel.",
+   "course": "foetel",
+   "servings": 4,
+   "prepMinutes": 30,
+   "cookMinutes": 60,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "csirkecomb",
+     "unit": "kg",
+     "amount": 1.0,
+     "note": "alsó- és felsőcombra vágva"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "paradicsom",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "paprika",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 2.0
+    },
+    {
+     "id": "liszt",
+     "unit": "dkg",
+     "amount": 35.0,
+     "note": "ebből 1 evőkanál a habaráshoz"
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "a nokedlihez"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 2.0,
+     "note": "a nokedlihez"
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olajon üvegesre pirítsd a hagymát, vedd le a tűzről, keverd bele a fűszerpaprikát, tedd rá a húst, sózd.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Add hozzá a felkockázott paradicsomot és paprikát, és fedő alatt, kevés vízzel pároljd puhára.",
+     "timerMinutes": 40
+    },
+    {
+     "text": "A nokedlihez a liszt nagy részét keverd el a tojásokkal, a vízzel és egy csipet sóval. Verd addig, amíg buborékos lesz."
+    },
+    {
+     "text": "Szaggasd a tésztát forró, sós vízbe, és főzd, amíg feljön, majd szedd ki.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "A tejfölt keverd el 1 evőkanál liszttel, habard be a paprikást, és forrald fel.",
+     "timerMinutes": 3
+    }
+   ]
+  },
+  {
+   "id": "b-marhaporkolt",
+   "title": "Marhapörkölt",
+   "summary": "Lassan párolt marhapörkölt, hagymás-paprikás alapon.",
+   "course": "foetel",
+   "servings": 5,
+   "prepMinutes": 20,
+   "cookMinutes": 120,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "marhahus",
+     "unit": "kg",
+     "amount": 1.0,
+     "note": "lapocka, kockázva"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 3.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "paradicsom",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "paprika",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "komeny",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 2.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "A hagymát az olajon pirítsd üvegesre, vedd le a tűzről, és keverd bele a fűszerpaprikát.",
+     "timerMinutes": 8
+    },
+    {
+     "text": "Add hozzá a húst, a fokhagymát, a köményt, sózd, és fedő alatt pároljd saját levében.",
+     "timerMinutes": 30
+    },
+    {
+     "text": "Ha elfőtte a levét, öntsd fel kevés vízzel, és főzd tovább puhára, a végén add hozzá a paradicsomot és a paprikát.",
+     "timerMinutes": 80
+    },
+    {
+     "text": "Nokedlivel, galuskával vagy burgonyával tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-sertesporkolt",
+   "title": "Sertéspörkölt",
+   "summary": "Gyorsabban elkészülő sertéspörkölt.",
+   "course": "foetel",
+   "servings": 5,
+   "prepMinutes": 20,
+   "cookMinutes": 80,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "serteshus",
+     "unit": "kg",
+     "amount": 1.0,
+     "note": "lapocka, kockázva"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "paradicsom",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "paprika",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 2.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "A hagymát az olajon pirítsd üvegesre, vedd le a tűzről, és keverd bele a fűszerpaprikát.",
+     "timerMinutes": 8
+    },
+    {
+     "text": "Add hozzá a húst és a fokhagymát, sózd, és fedő alatt pároljd saját levében.",
+     "timerMinutes": 25
+    },
+    {
+     "text": "Ha elfőtte a levét, öntsd fel kevés vízzel, add hozzá a paradicsomot és a paprikát, és főzd puhára.",
+     "timerMinutes": 45
+    }
+   ]
+  },
+  {
+   "id": "b-gombaporkolt",
+   "title": "Gombapörkölt",
+   "summary": "Gyors, hús nélküli pörkölt csiperkegombából.",
+   "course": "foetel",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 25,
+   "tags": [
+    "magyar",
+    "vegetáriánus-barát"
+   ],
+   "ingredients": [
+    {
+     "id": "csiperkegomba",
+     "unit": "dkg",
+     "amount": 70.0,
+     "note": "negyedelve"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "ek",
+     "amount": 1.5
+    },
+    {
+     "id": "paradicsom",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "paprika",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 1.0
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 1.0,
+     "optional": true
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A hagymát az olajon pirítsd üvegesre, vedd le a tűzről, és keverd bele a fűszerpaprikát.",
+     "timerMinutes": 6
+    },
+    {
+     "text": "Add hozzá a gombát, a fokhagymát, sózd, és fedő alatt pároljd, amíg kiengedi a levét.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Tedd bele a paradicsomot és a paprikát, és főzd puhára.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Ízlés szerint tejföllel tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-nokedli",
+   "title": "Nokedli (galuska)",
+   "summary": "Házi nokedli pörkölthöz és paprikáshoz.",
+   "course": "koret",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 10,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "liszt",
+     "unit": "dkg",
+     "amount": 40.0
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 2.0
+    },
+    {
+     "id": "so",
+     "unit": "tk",
+     "amount": 1.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "Keverd el a lisztet a tojásokkal, a vízzel és a sóval, és verd addig, amíg a tészta buborékos lesz.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Hagyd pihenni 10 percig.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Szaggasd a tésztát forró, sós vízbe, főzd, amíg feljön, majd szedd ki, és öblítsd át.",
+     "timerMinutes": 5
+    }
+   ]
+  },
+  {
+   "id": "b-rantottszelet",
+   "title": "Rántott szelet",
+   "summary": "Ropogós rántott sertésszelet.",
+   "course": "foetel",
+   "servings": 4,
+   "prepMinutes": 25,
+   "cookMinutes": 20,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "serteshus",
+     "unit": "dkg",
+     "amount": 60.0,
+     "note": "karaj, szeletekre vágva"
+    },
+    {
+     "id": "liszt",
+     "unit": "dkg",
+     "amount": 10.0
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "zsemlemorzsa",
+     "unit": "dkg",
+     "amount": 15.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "dl",
+     "amount": 3.0,
+     "note": "sütéshez"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "citrom",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "tálaláshoz",
+     "optional": true
+    }
+   ],
+   "steps": [
+    {
+     "text": "A szeleteket klopfold ki, sózd meg."
+    },
+    {
+     "text": "Forgasd meg lisztben, felvert tojásban, majd zsemlemorzsában, és nyomkodd rá a morzsát."
+    },
+    {
+     "text": "Forró olajban süsd aranybarnára mindkét oldalát, majd csepegtesd le papírtörlőn.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Citrommal és köretekkel tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-toltottpaprika",
+   "title": "Töltött paprika",
+   "summary": "Rizses darált hússal töltött paprika, paradicsomos szószban.",
+   "course": "foetel",
+   "servings": 6,
+   "prepMinutes": 40,
+   "cookMinutes": 60,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "paprika",
+     "unit": "db",
+     "amount": 8.0,
+     "note": "TV paprika, kimagozva"
+    },
+    {
+     "id": "daralthus",
+     "unit": "dkg",
+     "amount": 50.0
+    },
+    {
+     "id": "rizs",
+     "unit": "dkg",
+     "amount": 10.0,
+     "note": "nyers"
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "paradicsompure",
+     "unit": "ek",
+     "amount": 5.0
+    },
+    {
+     "id": "cukor",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 8.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "Keverd össze a darált húst a rizzsel, a tojással, a hagymával, a fokhagymával, a fűszerpaprikával, a sóval és a borssal."
+    },
+    {
+     "text": "Töltsd meg vele a paprikákat."
+    },
+    {
+     "text": "A paradicsompürét keverd el a vízzel és a cukorral, forrald fel, és tedd bele a paprikákat.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Fedő alatt, lassú tűzön főzd, amíg a paprika és a rizs megpuhul.",
+     "timerMinutes": 50
+    }
+   ]
+  },
+  {
+   "id": "b-toltottkaposzta",
+   "title": "Töltött káposzta",
+   "summary": "Savanyú káposztalevélbe töltött, füstölt kolbásszal főtt töltött káposzta.",
+   "course": "foetel",
+   "servings": 6,
+   "prepMinutes": 60,
+   "cookMinutes": 120,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "savanyukaposzta",
+     "unit": "kg",
+     "amount": 1.0,
+     "note": "ebből 10 szép levél, a többi aprítva"
+    },
+    {
+     "id": "daralthus",
+     "unit": "dkg",
+     "amount": 60.0
+    },
+    {
+     "id": "rizs",
+     "unit": "dkg",
+     "amount": 10.0
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "szalonna",
+     "unit": "dkg",
+     "amount": 10.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "kolbasz",
+     "unit": "dkg",
+     "amount": 15.0,
+     "note": "füstölt"
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "baberlevel",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 2.0,
+     "note": "tálaláshoz"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 5.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "A szalonnát sütsd ki, a hagymát pirítsd meg a zsírján, keverd bele a fűszerpaprikát.",
+     "timerMinutes": 8
+    },
+    {
+     "text": "Keverd össze a darált húst a rizzsel, a tojással, a hagymás pirítással, a fokhagymával, a sóval és a borssal."
+    },
+    {
+     "text": "A káposztalevelekbe csomagolj egy-egy adag tölteléket."
+    },
+    {
+     "text": "Tedd egy nagy lábasba az aprított káposztát, a kolbászt, a babérlevelet és a töltelékeket, öntsd fel vízzel.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Fedő alatt főzd lassú tűzön, amíg a hús és a rizs megpuhul.",
+     "timerMinutes": 100
+    },
+    {
+     "text": "Tejföllel tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-szekelygulyas",
+   "title": "Székelygulyás",
+   "summary": "Savanyú káposztás, tejfölös sertéshúsos étel.",
+   "course": "foetel",
+   "servings": 5,
+   "prepMinutes": 20,
+   "cookMinutes": 90,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "serteshus",
+     "unit": "dkg",
+     "amount": 70.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "savanyukaposzta",
+     "unit": "dkg",
+     "amount": 80.0
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "ek",
+     "amount": 1.5
+    },
+    {
+     "id": "komeny",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "baberlevel",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 2.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 5.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olajon pirítsd üvegesre a hagymát, vedd le a tűzről, és keverd bele a fűszerpaprikát.",
+     "timerMinutes": 6
+    },
+    {
+     "text": "Add hozzá a húst, a fokhagymát, a köményt, és pároljd, amíg fehéredik.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "Öntsd fel kevés vízzel, főzd félpuhára.",
+     "timerMinutes": 30
+    },
+    {
+     "text": "Add hozzá a káposztát és a babérlevelet, és főzd puhára.",
+     "timerMinutes": 40
+    },
+    {
+     "text": "A tejfölt keverd el kevés levessel, és keverd bele az ételbe, majd tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-brassoi",
+   "title": "Brassói aprópecsenye",
+   "summary": "Fokhagymás, majoránnás sertéshús sült burgonyával.",
+   "course": "foetel",
+   "servings": 4,
+   "prepMinutes": 20,
+   "cookMinutes": 35,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "serteshus",
+     "unit": "dkg",
+     "amount": 60.0,
+     "note": "kis kockákra vágva"
+    },
+    {
+     "id": "burgonya",
+     "unit": "dkg",
+     "amount": 80.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "szeletelve"
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 4.0,
+     "note": "zúzva"
+    },
+    {
+     "id": "etolaj",
+     "unit": "dl",
+     "amount": 1.0
+    },
+    {
+     "id": "majoranna",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "savanyuuborka",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "tálaláshoz",
+     "optional": true
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olaj felén süsd meg a burgonyát, sózd, és tedd félre.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "A maradék olajon pirítsd át a húst a hagymával, sózd, borsozd.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "Add hozzá a fokhagymát és a majoránnát, tedd vissza a burgonyát, és forgasd össze.",
+     "timerMinutes": 3
+    },
+    {
+     "text": "Savanyúsággal tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-rizibizi",
+   "title": "Rizi-bizi",
+   "summary": "Zöldborsós rizs, egyszerű köret.",
+   "course": "koret",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 25,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "rizs",
+     "unit": "dkg",
+     "amount": 30.0
+    },
+    {
+     "id": "zoldborso",
+     "unit": "dkg",
+     "amount": 25.0
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "vaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 6.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "A vajon üvegesítsd a hagymát, add hozzá a rizst, és pirítsd át.",
+     "timerMinutes": 4
+    },
+    {
+     "text": "Öntsd fel a vízzel, add hozzá a borsót és a sót, és fedő alatt főzd puhára.",
+     "timerMinutes": 18
+    },
+    {
+     "text": "Villával fellazítva tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-turoscsusza",
+   "title": "Túrós csusza",
+   "summary": "Tejfölös, szalonnás túrós csusza.",
+   "course": "tesztaetel",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 20,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "teszta",
+     "unit": "dkg",
+     "amount": 30.0,
+     "note": "csusza, vagy széles metélt"
+    },
+    {
+     "id": "turo",
+     "unit": "dkg",
+     "amount": 25.0
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 2.0
+    },
+    {
+     "id": "szalonna",
+     "unit": "dkg",
+     "amount": 12.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A tésztát főzd meg sós vízben, majd csepegtesd le.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "A szalonnát sütsd ki, tedd félre a pörcöt, a zsírján forgasd meg a tésztát."
+    },
+    {
+     "text": "Keverd el a túrót, a tejfölt és a sót, majd fordítsd a tésztára."
+    },
+    {
+     "text": "Szórd meg a szalonnapörccel, és tálald melegen."
+    }
+   ]
+  },
+  {
+   "id": "b-makosteszta",
+   "title": "Mákos tészta",
+   "summary": "Egyszerű, édes tésztaétel mákkal.",
+   "course": "tesztaetel",
+   "servings": 4,
+   "prepMinutes": 5,
+   "cookMinutes": 15,
+   "tags": [
+    "magyar",
+    "gyors"
+   ],
+   "ingredients": [
+    {
+     "id": "tojasos_metelt",
+     "unit": "dkg",
+     "amount": 30.0,
+     "note": "metélt"
+    },
+    {
+     "id": "mak",
+     "unit": "dkg",
+     "amount": 10.0,
+     "note": "frissen darálva"
+    },
+    {
+     "id": "cukor",
+     "unit": "ek",
+     "amount": 5.0
+    },
+    {
+     "id": "vaj",
+     "unit": "ek",
+     "amount": 2.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "A tésztát főzd meg, majd csepegtesd le.",
+     "timerMinutes": 8
+    },
+    {
+     "text": "Forgasd meg a vajban."
+    },
+    {
+     "text": "Keverd össze a mákot a cukorral, és szórd meg vele a tésztát."
+    }
+   ]
+  },
+  {
+   "id": "b-sonkaskocka",
+   "title": "Sonkáskocka",
+   "summary": "Sonkás, tejfölös tésztaétel sajttal sütve.",
+   "course": "tesztaetel",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 20,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "teszta",
+     "unit": "dkg",
+     "amount": 30.0,
+     "note": "kockatészta"
+    },
+    {
+     "id": "sonka",
+     "unit": "dkg",
+     "amount": 20.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 2.0
+    },
+    {
+     "id": "sajt",
+     "unit": "dkg",
+     "amount": 10.0,
+     "note": "reszelve"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A tésztát főzd meg sós vízben, és csepegtesd le.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Keverd össze a sonkával és a tejföllel, tedd egy tepsibe, szórd meg sajttal."
+    },
+    {
+     "text": "Süsd előmelegített 200 fokos sütőben, amíg a sajt megolvad és megpirul.",
+     "timerMinutes": 12
+    }
+   ]
+  },
+  {
+   "id": "b-rantotta",
+   "title": "Rántotta zöldségekkel",
+   "summary": "Puha rántotta hagymával, paprikával és paradicsommal.",
+   "course": "reggeli",
+   "servings": 2,
+   "prepMinutes": 5,
+   "cookMinutes": 10,
+   "tags": [
+    "gyors",
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 4.0
+    },
+    {
+     "id": "vaj",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 0.5,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "paprika",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "paradicsom",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A vajon üvegesítsd a hagymát, add hozzá a paprikát, és pároljd puhára.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Add hozzá a paradicsomot, majd öntsd rá a felvert, sózott tojásokat."
+    },
+    {
+     "text": "Folyamatosan kevergetve süsd kívánt keménységűre.",
+     "timerMinutes": 3
+    }
+   ]
+  },
+  {
+   "id": "b-langos",
+   "title": "Lángos",
+   "summary": "Krumplis tésztából sütött lángos, fokhagymával és tejföllel.",
+   "course": "foetel",
+   "servings": 4,
+   "prepMinutes": 20,
+   "cookMinutes": 20,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "liszt",
+     "unit": "dkg",
+     "amount": 50.0
+    },
+    {
+     "id": "eleszto",
+     "unit": "dkg",
+     "amount": 2.0,
+     "note": "friss"
+    },
+    {
+     "id": "tej",
+     "unit": "dl",
+     "amount": 2.5,
+     "note": "langyos"
+    },
+    {
+     "id": "burgonya",
+     "unit": "dkg",
+     "amount": 20.0,
+     "note": "főtt, áttörve"
+    },
+    {
+     "id": "cukor",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "dl",
+     "amount": 5.0,
+     "note": "sütéshez"
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 3.0,
+     "note": "zúzva"
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 2.0
+    },
+    {
+     "id": "sajt",
+     "unit": "dkg",
+     "amount": 15.0,
+     "note": "reszelve"
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az élesztőt keverd el a langyos tejjel és a cukorral, és hagyd felfutni.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Gyúrd össze a liszttel, a burgonyával és a sóval, és hagyd duplájára kelni letakarva.",
+     "timerMinutes": 60
+    },
+    {
+     "text": "Olajos kézzel nyújtsd kisebb korongokra, és süsd forró olajban mindkét oldalát.",
+     "timerMinutes": 4
+    },
+    {
+     "text": "Kend meg fokhagymával és tejföllel, szórd meg sajttal."
+    }
+   ]
+  },
+  {
+   "id": "b-halaszle",
+   "title": "Halászlé",
+   "summary": "Fűszeres, paprikás halászlé pontyból.",
+   "course": "leves",
+   "servings": 6,
+   "prepMinutes": 30,
+   "cookMinutes": 60,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "ponty",
+     "unit": "kg",
+     "amount": 1.5,
+     "note": "feldarabolva, a fejével és farkával"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 4.0
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "paradicsom",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "chili",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "csípős"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "viz",
+     "unit": "l",
+     "amount": 2.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "A hagymát tedd 2 liter vízbe, és főzd puhára.",
+     "timerMinutes": 20
+    },
+    {
+     "text": "Add hozzá a fűszerpaprikát, a paradicsomot, a csípős paprikát és a halfejet meg a farkat, főzd még 10 percig, majd szűrd le a levet.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Add hozzá a hal darabjait, sózd, és főzd 15 percig; ne keverd, inkább óvatosan rázogasd a fazekat.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "Tálald forrón."
+    }
+   ]
+  },
+  {
+   "id": "b-rantottgomba",
+   "title": "Rántott gomba",
+   "summary": "Ropogós rántott csiperkegomba.",
+   "course": "foetel",
+   "servings": 4,
+   "prepMinutes": 20,
+   "cookMinutes": 15,
+   "tags": [
+    "magyar",
+    "vegetáriánus-barát"
+   ],
+   "ingredients": [
+    {
+     "id": "csiperkegomba",
+     "unit": "dkg",
+     "amount": 60.0,
+     "note": "egészben"
+    },
+    {
+     "id": "liszt",
+     "unit": "dkg",
+     "amount": 10.0
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "zsemlemorzsa",
+     "unit": "dkg",
+     "amount": 15.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "dl",
+     "amount": 3.0,
+     "note": "sütéshez"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A gombákat tisztítsd meg, és sózd meg."
+    },
+    {
+     "text": "Forgasd meg lisztben, tojásban, majd zsemlemorzsában."
+    },
+    {
+     "text": "Forró olajban süsd aranybarnára, majd csepegtesd le.",
+     "timerMinutes": 8
+    }
+   ]
+  },
+  {
+   "id": "b-sultcsirkecomb",
+   "title": "Sült csirkecomb burgonyával",
+   "summary": "Egyszerű tepsis étel fűszerpaprikás, fokhagymás csirkecombbal.",
+   "course": "foetel",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 60,
+   "tags": [
+    "magyar",
+    "egyszerű"
+   ],
+   "ingredients": [
+    {
+     "id": "csirkecomb",
+     "unit": "kg",
+     "amount": 1.0
+    },
+    {
+     "id": "burgonya",
+     "unit": "kg",
+     "amount": 1.0,
+     "note": "cikkekre vágva"
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 4.0,
+     "note": "zúzva"
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 4.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "Keverd el az olajat a fűszerpaprikával, a fokhagymával, a sóval és a borssal."
+    },
+    {
+     "text": "Forgasd meg benne a csirkét és a burgonyát, majd terítsd tepsibe."
+    },
+    {
+     "text": "Süsd előmelegített 200 fokos sütőben aranybarnára, egyszer megfordítva.",
+     "timerMinutes": 55
+    }
+   ]
+  },
+  {
+   "id": "b-palacsinta",
+   "title": "Palacsinta",
+   "summary": "Vékony, könnyű palacsinta lekvárral.",
+   "course": "desszert",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 25,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "liszt",
+     "unit": "dkg",
+     "amount": 25.0
+    },
+    {
+     "id": "tej",
+     "unit": "dl",
+     "amount": 5.0
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "szodaviz",
+     "unit": "dl",
+     "amount": 1.0
+    },
+    {
+     "id": "cukor",
+     "unit": "ek",
+     "amount": 3.0,
+     "note": "ebből 1 a tésztába, a többi szóráshoz"
+    },
+    {
+     "id": "so",
+     "unit": "csipet",
+     "amount": 1.0
+    },
+    {
+     "id": "lekvar",
+     "unit": "ek",
+     "amount": 6.0,
+     "note": "töltelékhez",
+     "optional": true
+    }
+   ],
+   "steps": [
+    {
+     "text": "A tojásokat verd fel a tejjel, a szódavízzel, a cukorral és a sóval."
+    },
+    {
+     "text": "Keverd bele a lisztet csomómentesre, majd az olajat. Hagyd pihenni.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "Forró, kikent serpenyőben süsd ki vékony palacsintákat.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "Kend meg lekvárral, hajtsd össze, szórd meg cukorral."
+    }
+   ]
+  },
+  {
+   "id": "b-almaspite",
+   "title": "Almás pite",
+   "summary": "Fahéjas almás pite omlós tésztával.",
+   "course": "desszert",
+   "servings": 8,
+   "prepMinutes": 40,
+   "cookMinutes": 45,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "liszt",
+     "unit": "dkg",
+     "amount": 30.0
+    },
+    {
+     "id": "vaj",
+     "unit": "dkg",
+     "amount": 15.0,
+     "note": "hideg"
+    },
+    {
+     "id": "cukor",
+     "unit": "dkg",
+     "amount": 15.0,
+     "note": "ebből 5 dkg a tésztához"
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "alma",
+     "unit": "kg",
+     "amount": 1.0,
+     "note": "savanykás, reszelve"
+    },
+    {
+     "id": "fahej",
+     "unit": "tk",
+     "amount": 2.0
+    },
+    {
+     "id": "mazsola",
+     "unit": "ek",
+     "amount": 3.0,
+     "optional": true
+    },
+    {
+     "id": "porcukor",
+     "unit": "ek",
+     "amount": 2.0,
+     "note": "hintéshez",
+     "optional": true
+    }
+   ],
+   "steps": [
+    {
+     "text": "Morzsold el a lisztet a vajjal, add hozzá a tojást és 5 dkg cukrot, és gyúrd össze. Hűtsd 30 percig.",
+     "timerMinutes": 30
+    },
+    {
+     "text": "A reszelt almát keverd el a maradék cukorral, a fahéjjal és a mazsolával, ha használsz."
+    },
+    {
+     "text": "A tészta kétharmadát nyújtsd ki egy tepsibe, terítsd rá az almát, a maradékból készíts rácsot."
+    },
+    {
+     "text": "Süsd előmelegített 180 fokos sütőben aranybarnára.",
+     "timerMinutes": 45
+    },
+    {
+     "text": "Hűtsd ki, és szórd meg porcukorral."
+    }
+   ]
+  },
+  {
+   "id": "b-turogomboc",
+   "title": "Túrógombóc",
+   "summary": "Vajas morzsában forgatott túrógombóc tejföllel.",
+   "course": "desszert",
+   "servings": 4,
+   "prepMinutes": 30,
+   "cookMinutes": 15,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "turo",
+     "unit": "dkg",
+     "amount": 50.0
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "buzadara",
+     "unit": "dkg",
+     "amount": 10.0
+    },
+    {
+     "id": "zsemlemorzsa",
+     "unit": "dkg",
+     "amount": 10.0
+    },
+    {
+     "id": "vaj",
+     "unit": "dkg",
+     "amount": 5.0
+    },
+    {
+     "id": "cukor",
+     "unit": "ek",
+     "amount": 5.0
+    },
+    {
+     "id": "so",
+     "unit": "csipet",
+     "amount": 1.0
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 2.0,
+     "note": "tálaláshoz"
+    }
+   ],
+   "steps": [
+    {
+     "text": "Keverd össze a túrót a tojásokkal, a darával, 2 evőkanál cukorral és a sóval, és hagyd állni 30 percig.",
+     "timerMinutes": 30
+    },
+    {
+     "text": "A vajon pirítsd meg a morzsát a maradék cukorral."
+    },
+    {
+     "text": "Nedves kézzel formálj gombócokat, és főzd forrásban lévő, sós vízben, amíg feljönnek.",
+     "timerMinutes": 12
+    },
+    {
+     "text": "Forgasd meg a morzsában, és tejföllel tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-meggyleves",
+   "title": "Hideg meggyleves",
+   "summary": "Fahéjas-szegfűszeges meggyleves, hidegen tálalva.",
+   "course": "leves",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 20,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "meggy",
+     "unit": "dkg",
+     "amount": 50.0,
+     "note": "kimagozva"
+    },
+    {
+     "id": "cukor",
+     "unit": "dkg",
+     "amount": 10.0
+    },
+    {
+     "id": "fahej",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "szegfuszeg",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "citromle",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "tejfol",
+     "unit": "dl",
+     "amount": 1.0
+    },
+    {
+     "id": "liszt",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "csipet",
+     "amount": 1.0
+    },
+    {
+     "id": "viz",
+     "unit": "l",
+     "amount": 1.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "Forrald fel a vizet a meggyel, a cukorral, a fahéjjal, a szegfűszeggel és a sóval, és főzd 10 percig.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "A tejfölt keverd el a liszttel és kevés levessel, habard be vele a levest, és forrald fel.",
+     "timerMinutes": 3
+    },
+    {
+     "text": "Ízesítsd citromlével, és hűtsd teljesen hidegre.",
+     "timerMinutes": 120
+    }
+   ]
+  },
+  {
+   "id": "b-tejberizs",
+   "title": "Tejberizs",
+   "summary": "Krémes tejberizs vaníliával és fahéjjal.",
+   "course": "desszert",
+   "servings": 4,
+   "prepMinutes": 5,
+   "cookMinutes": 30,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "rizs",
+     "unit": "dkg",
+     "amount": 20.0,
+     "note": "gömbölyűszemű"
+    },
+    {
+     "id": "tej",
+     "unit": "l",
+     "amount": 1.0
+    },
+    {
+     "id": "cukor",
+     "unit": "ek",
+     "amount": 4.0
+    },
+    {
+     "id": "vanilias_cukor",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "csipet",
+     "amount": 1.0
+    },
+    {
+     "id": "fahej",
+     "unit": "tk",
+     "amount": 1.0,
+     "optional": true
+    }
+   ],
+   "steps": [
+    {
+     "text": "A tejet forrald fel a cukorral, a vaníliás cukorral és a sóval."
+    },
+    {
+     "text": "Szórd bele az átmosott rizst, és kis lángon főzd, gyakran kevergetve.",
+     "timerMinutes": 25
+    },
+    {
+     "text": "Tálald melegen vagy hidegen, ízlés szerint fahéjjal."
+    }
+   ]
+  },
+  {
+   "id": "b-zabkasa",
+   "title": "Zabkása gyümölccsel",
+   "summary": "Gyors reggeli zabkása banánnal.",
+   "course": "reggeli",
+   "servings": 2,
+   "prepMinutes": 5,
+   "cookMinutes": 10,
+   "tags": [
+    "gyors"
+   ],
+   "ingredients": [
+    {
+     "id": "zabpehely",
+     "unit": "dkg",
+     "amount": 10.0
+    },
+    {
+     "id": "tej",
+     "unit": "dl",
+     "amount": 3.0
+    },
+    {
+     "id": "banan",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "szeletelve"
+    },
+    {
+     "id": "mez",
+     "unit": "ek",
+     "amount": 1.0,
+     "optional": true
+    },
+    {
+     "id": "fahej",
+     "unit": "csipet",
+     "amount": 1.0,
+     "optional": true
+    }
+   ],
+   "steps": [
+    {
+     "text": "A zabpelyhet főzd a tejjel, kevergetve.",
+     "timerMinutes": 7
+    },
+    {
+     "text": "Tedd rá a banánt, és csorgasd meg mézzel, szórd meg fahéjjal."
+    }
+   ]
+  },
+  {
+   "id": "b-uborkasalata",
+   "title": "Uborkasaláta",
+   "summary": "Fokhagymás, ecetes uborkasaláta.",
+   "course": "koret",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 0,
+   "tags": [
+    "magyar",
+    "gyors"
+   ],
+   "ingredients": [
+    {
+     "id": "uborka",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "vékonyan szeletelve"
+    },
+    {
+     "id": "ecet",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "cukor",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 1.0,
+     "note": "zúzva"
+    },
+    {
+     "id": "tejfol",
+     "unit": "ek",
+     "amount": 2.0,
+     "optional": true
+    },
+    {
+     "id": "fuszerpaprika",
+     "unit": "csipet",
+     "amount": 1.0,
+     "optional": true
+    },
+    {
+     "id": "viz",
+     "unit": "dl",
+     "amount": 1.0
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az uborkát sózd meg, hagyd állni 10 percig, majd nyomkodd ki a levét.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Keverd el az ecetet a vízzel, a cukorral és a fokhagymával, öntsd az uborkára."
+    },
+    {
+     "text": "Ízlés szerint tejföllel és fűszerpaprikával tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-paradicsomsalata",
+   "title": "Paradicsomsaláta",
+   "summary": "Hagymás, olajos paradicsomsaláta.",
+   "course": "koret",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 0,
+   "tags": [
+    "magyar",
+    "gyors"
+   ],
+   "ingredients": [
+    {
+     "id": "paradicsom",
+     "unit": "dkg",
+     "amount": 60.0,
+     "note": "felszeletelve"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 0.5,
+     "note": "vékony karikákra vágva"
+    },
+    {
+     "id": "ecet",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "cukor",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "petrezselyem",
+     "unit": "csokor",
+     "amount": 0.5,
+     "optional": true
+    }
+   ],
+   "steps": [
+    {
+     "text": "Keverd össze az ecetet, a cukrot, a sót és az olajat."
+    },
+    {
+     "text": "Öntsd a paradicsomra és a hagymára, szórd meg petrezselyemmel."
+    },
+    {
+     "text": "Hagyd állni 10 percig, hogy az ízek összeérjenek.",
+     "timerMinutes": 10
+    }
+   ]
+  },
+  {
+   "id": "b-krumplisalata",
+   "title": "Krumplisaláta",
+   "summary": "Hagymás, ecetes burgonyasaláta.",
+   "course": "koret",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 25,
+   "tags": [
+    "magyar"
+   ],
+   "ingredients": [
+    {
+     "id": "burgonya",
+     "unit": "dkg",
+     "amount": 80.0
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "apróra vágva"
+    },
+    {
+     "id": "ecet",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "főtt",
+     "optional": true
+    },
+    {
+     "id": "petrezselyem",
+     "unit": "csokor",
+     "amount": 0.5,
+     "optional": true
+    }
+   ],
+   "steps": [
+    {
+     "text": "A burgonyát főzd meg héjában, majd hámozd és szeleteld fel.",
+     "timerMinutes": 25
+    },
+    {
+     "text": "Még melegen keverd össze a hagymával, az ecettel, az olajjal, a sóval és a borssal."
+    },
+    {
+     "text": "Ízlés szerint tegyél bele felkarikázott főtt tojást, és szórd meg petrezselyemmel."
+    }
+   ]
+  },
+  {
+   "id": "b-sultburgonya",
+   "title": "Rozmaringos sült burgonya",
+   "summary": "Ropogós, fokhagymás sült burgonya rozmaringgal.",
+   "course": "koret",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 40,
+   "tags": [
+    "egyszerű"
+   ],
+   "ingredients": [
+    {
+     "id": "burgonya",
+     "unit": "kg",
+     "amount": 1.0,
+     "note": "cikkekre vágva"
+    },
+    {
+     "id": "olivaolaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "rozmaring",
+     "unit": "szál",
+     "amount": 2.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 3.0,
+     "note": "egészben"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "Forgasd meg a burgonyát az olajjal, a sóval és a rozmaringgal."
+    },
+    {
+     "text": "Terítsd tepsibe a fokhagymával együtt."
+    },
+    {
+     "text": "Süsd előmelegített 220 fokos sütőben aranybarnára, egyszer megfordítva.",
+     "timerMinutes": 40
+    }
+   ]
+  },
+  {
+   "id": "b-bolognai",
+   "title": "Spagetti bolognai",
+   "summary": "Hosszan főtt paradicsomos-húsos szósz spagettivel.",
+   "course": "tesztaetel",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 45,
+   "tags": [
+    "nemzetközi"
+   ],
+   "ingredients": [
+    {
+     "id": "teszta",
+     "unit": "dkg",
+     "amount": 40.0,
+     "note": "spagetti"
+    },
+    {
+     "id": "daralt_marha",
+     "unit": "dkg",
+     "amount": 50.0
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "sargarepa",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "lereszelve"
+    },
+    {
+     "id": "konzerv_paradicsom",
+     "unit": "doboz",
+     "amount": 1.0,
+     "note": "400 g"
+    },
+    {
+     "id": "paradicsompure",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "olivaolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "oregano",
+     "unit": "tk",
+     "amount": 1.0
+    },
+    {
+     "id": "parmezan",
+     "unit": "ek",
+     "amount": 4.0,
+     "note": "reszelve",
+     "optional": true
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olajon üvegesítsd az apróra vágott hagymát és a répát, add hozzá a fokhagymát.",
+     "timerMinutes": 6
+    },
+    {
+     "text": "Add hozzá a darált húst, és pirítsd, amíg megbarnul.",
+     "timerMinutes": 8
+    },
+    {
+     "text": "Keverd bele a paradicsompürét, a konzerv paradicsomot, az oregánót, sózd, borsozd, és főzd lassú tűzön.",
+     "timerMinutes": 30
+    },
+    {
+     "text": "A tésztát főzd meg a csomagon írt ideig, és forgasd össze a szósszal.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Ízlés szerint szórd meg parmezánnal."
+    }
+   ]
+  },
+  {
+   "id": "b-csicseriborsocurry",
+   "title": "Csicseriborsós curry",
+   "summary": "Kókusztejes, fűszeres csicseriborsó rizzsel.",
+   "course": "foetel",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 25,
+   "tags": [
+    "nemzetközi",
+    "vegán-barát"
+   ],
+   "ingredients": [
+    {
+     "id": "csicseriborso",
+     "unit": "doboz",
+     "amount": 2.0,
+     "note": "lecsepegtetve"
+    },
+    {
+     "id": "kokusztej",
+     "unit": "doboz",
+     "amount": 1.0,
+     "note": "400 ml"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 3.0
+    },
+    {
+     "id": "gyomber",
+     "unit": "ek",
+     "amount": 1.0,
+     "note": "reszelve"
+    },
+    {
+     "id": "curry",
+     "unit": "tk",
+     "amount": 2.0
+    },
+    {
+     "id": "konzerv_paradicsom",
+     "unit": "doboz",
+     "amount": 1.0,
+     "note": "400 g"
+    },
+    {
+     "id": "rizs",
+     "unit": "dkg",
+     "amount": 25.0
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "koriander",
+     "unit": "csokor",
+     "amount": 0.5,
+     "optional": true
+    }
+   ],
+   "steps": [
+    {
+     "text": "Az olajon üvegesítsd a hagymát, add hozzá a fokhagymát, a gyömbért és a currypor, és pirítsd 1 percig.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Add hozzá a paradicsomot, a kókusztejet és a csicseriborsót, sózd, és főzd, amíg besűrűsödik.",
+     "timerMinutes": 20
+    },
+    {
+     "text": "A rizst főzd meg a csomagon írt ideig.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "Tálald a rizzsel, szórd meg korianderrel."
+    }
+   ]
+  },
+  {
+   "id": "b-rizottogombaval",
+   "title": "Gombás rizottó",
+   "summary": "Krémes rizottó csiperkegombával és parmezánnal.",
+   "course": "foetel",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 35,
+   "tags": [
+    "nemzetközi"
+   ],
+   "ingredients": [
+    {
+     "id": "rizs",
+     "unit": "dkg",
+     "amount": 30.0,
+     "note": "rizottórizs"
+    },
+    {
+     "id": "csiperkegomba",
+     "unit": "dkg",
+     "amount": 30.0,
+     "note": "szeletelve"
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "vaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "feherbor",
+     "unit": "dl",
+     "amount": 1.0,
+     "optional": true
+    },
+    {
+     "id": "csirkealaple",
+     "unit": "l",
+     "amount": 1.0,
+     "note": "forrón tartva"
+    },
+    {
+     "id": "parmezan",
+     "unit": "dkg",
+     "amount": 5.0,
+     "note": "reszelve"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A vaj felén üvegesítsd a hagymát, add hozzá a gombát, és pirítsd, amíg a leve elfő.",
+     "timerMinutes": 8
+    },
+    {
+     "text": "Add hozzá a rizst, pirítsd 2 percig, és öntsd fel borral, ha használsz.",
+     "timerMinutes": 3
+    },
+    {
+     "text": "Merj hozzá egy merőkanál alaplevet, és kevergetve főzd, mindig csak akkor adj még hozzá, ha az előző felszívódott.",
+     "timerMinutes": 22
+    },
+    {
+     "text": "Végül keverd bele a maradék vajat és a parmezánt, sózd, borsozd."
+    }
+   ]
+  },
+  {
+   "id": "b-woktofuval",
+   "title": "Wokos tofu zöldségekkel",
+   "summary": "Gyors wok: tofu, zöldségek és szójaszósz rizzsel.",
+   "course": "foetel",
+   "servings": 2,
+   "prepMinutes": 15,
+   "cookMinutes": 15,
+   "tags": [
+    "nemzetközi",
+    "vegán-barát",
+    "gyors"
+   ],
+   "ingredients": [
+    {
+     "id": "tofu",
+     "unit": "dkg",
+     "amount": 20.0,
+     "note": "kockázva"
+    },
+    {
+     "id": "rizs",
+     "unit": "dkg",
+     "amount": 20.0
+    },
+    {
+     "id": "paprika",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "csíkokra vágva"
+    },
+    {
+     "id": "sargarepa",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "vékony szeletekre vágva"
+    },
+    {
+     "id": "brokkoli",
+     "unit": "dkg",
+     "amount": 20.0,
+     "note": "rózsákra szedve"
+    },
+    {
+     "id": "szojaszosz",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "gyomber",
+     "unit": "tk",
+     "amount": 1.0,
+     "note": "reszelve"
+    },
+    {
+     "id": "etolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "szezammag",
+     "unit": "ek",
+     "amount": 1.0,
+     "optional": true
+    }
+   ],
+   "steps": [
+    {
+     "text": "A rizst főzd meg a csomagon írt ideig.",
+     "timerMinutes": 15
+    },
+    {
+     "text": "A tofut forró olajon süsd aranybarnára mindkét oldalán, majd vedd ki.",
+     "timerMinutes": 6
+    },
+    {
+     "text": "A zöldségeket a fokhagymával és a gyömbérrel pirítsd 5 percig.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Tedd vissza a tofut, öntsd rá a szójaszószt, és forgasd össze."
+    },
+    {
+     "text": "Tálald a rizzsel, szórd meg szezámmaggal."
+    }
+   ]
+  },
+  {
+   "id": "b-sajtosmakaroni",
+   "title": "Sajtos makaróni",
+   "summary": "Krémes sajtos makaróni besamel alapon.",
+   "course": "tesztaetel",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 25,
+   "tags": [
+    "nemzetközi"
+   ],
+   "ingredients": [
+    {
+     "id": "teszta",
+     "unit": "dkg",
+     "amount": 30.0,
+     "note": "makaróni"
+    },
+    {
+     "id": "sajt",
+     "unit": "dkg",
+     "amount": 20.0,
+     "note": "reszelve"
+    },
+    {
+     "id": "tej",
+     "unit": "dl",
+     "amount": 4.0
+    },
+    {
+     "id": "vaj",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "liszt",
+     "unit": "ek",
+     "amount": 3.0
+    },
+    {
+     "id": "szerecsendio",
+     "unit": "csipet",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A tésztát főzd meg sós vízben, és csepegtesd le.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "A vajon pirítsd a lisztet 1 percig, öntsd fel fokozatosan a tejjel, kevergetve sűrűsödésig.",
+     "timerMinutes": 8
+    },
+    {
+     "text": "Keverd bele a sajt nagy részét, ízesítsd szerecsendióval, sóval és borssal."
+    },
+    {
+     "text": "Keverd össze a tésztával, szórd meg a maradék sajttal, és süsd 15 percig 200 fokon.",
+     "timerMinutes": 15
+    }
+   ]
+  },
+  {
+   "id": "b-sultzoldsegek",
+   "title": "Sült zöldségek",
+   "summary": "Olívaolajos, fokhagymás sült zöldségek.",
+   "course": "koret",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 35,
+   "tags": [
+    "nemzetközi",
+    "vegán-barát",
+    "egyszerű"
+   ],
+   "ingredients": [
+    {
+     "id": "cukkini",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "padlizsan",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "paprika",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "voroshagyma",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "olivaolaj",
+     "unit": "ek",
+     "amount": 4.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 3.0
+    },
+    {
+     "id": "rozmaring",
+     "unit": "szál",
+     "amount": 1.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "Vágd a zöldségeket nagyobb kockákra."
+    },
+    {
+     "text": "Forgasd meg őket olívaolajjal, sóval, borssal, fokhagymával és rozmaringgal."
+    },
+    {
+     "text": "Süsd előmelegített 210 fokos sütőben puhára, és egyszer megkeverd.",
+     "timerMinutes": 35
+    }
+   ]
+  },
+  {
+   "id": "b-omlett",
+   "title": "Sajtos omlett",
+   "summary": "Gyors, sajtos omlett.",
+   "course": "reggeli",
+   "servings": 1,
+   "prepMinutes": 3,
+   "cookMinutes": 5,
+   "tags": [
+    "gyors",
+    "nemzetközi"
+   ],
+   "ingredients": [
+    {
+     "id": "tojas",
+     "unit": "db",
+     "amount": 3.0
+    },
+    {
+     "id": "tej",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "vaj",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "sajt",
+     "unit": "dkg",
+     "amount": 5.0,
+     "note": "reszelve"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "Verd fel a tojásokat a tejjel és a sóval."
+    },
+    {
+     "text": "A vajat olvaszd meg egy serpenyőben, öntsd bele a tojást, és süsd közepes lángon.",
+     "timerMinutes": 3
+    },
+    {
+     "text": "Szórd meg sajttal, hajtsd félbe, és tálald."
+    }
+   ]
+  },
+  {
+   "id": "b-sultlazac",
+   "title": "Citromos-kaporos sült lazac",
+   "summary": "Egyszerű, gyors sült lazac citrommal és kaporral.",
+   "course": "foetel",
+   "servings": 2,
+   "prepMinutes": 10,
+   "cookMinutes": 15,
+   "tags": [
+    "nemzetközi",
+    "gyors"
+   ],
+   "ingredients": [
+    {
+     "id": "lazac",
+     "unit": "db",
+     "amount": 2.0,
+     "note": "filé, 15 dkg-os"
+    },
+    {
+     "id": "olivaolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "citrom",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0,
+     "note": "szeletelve"
+    },
+    {
+     "id": "kapor",
+     "unit": "csokor",
+     "amount": 0.5
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    },
+    {
+     "id": "bors",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "Sózd, borsozd a lazacot, és kend be olívaolajjal."
+    },
+    {
+     "text": "Tedd tepsibe fokhagymával, szórd meg kaporral, és csorgasd rá a citrom levét."
+    },
+    {
+     "text": "Süsd előmelegített 200 fokos sütőben.",
+     "timerMinutes": 15
+    }
+   ]
+  },
+  {
+   "id": "b-tonhalasteszta",
+   "title": "Tonhalas tészta",
+   "summary": "Fokhagymás-paradicsomos tonhalas tészta.",
+   "course": "tesztaetel",
+   "servings": 2,
+   "prepMinutes": 5,
+   "cookMinutes": 15,
+   "tags": [
+    "nemzetközi",
+    "gyors"
+   ],
+   "ingredients": [
+    {
+     "id": "teszta",
+     "unit": "dkg",
+     "amount": 20.0
+    },
+    {
+     "id": "tonhal",
+     "unit": "doboz",
+     "amount": 1.0,
+     "note": "lecsepegtetve"
+    },
+    {
+     "id": "konzerv_paradicsom",
+     "unit": "doboz",
+     "amount": 1.0,
+     "note": "400 g"
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 2.0
+    },
+    {
+     "id": "olivaolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "olivabogyo",
+     "unit": "db",
+     "amount": 6.0,
+     "optional": true
+    },
+    {
+     "id": "kapribogyo",
+     "unit": "ek",
+     "amount": 1.0,
+     "optional": true
+    },
+    {
+     "id": "petrezselyem",
+     "unit": "csokor",
+     "amount": 0.5,
+     "optional": true
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A tésztát főzd meg a csomagon írt ideig.",
+     "timerMinutes": 10
+    },
+    {
+     "text": "Az olajon pirítsd meg a fokhagymát, add hozzá a paradicsomot, és főzd sűrűre.",
+     "timerMinutes": 8
+    },
+    {
+     "text": "Keverd bele a tonhalat, az olajbogyót és a kapribogyót, forgasd össze a tésztával."
+    },
+    {
+     "text": "Szórd meg petrezselyemmel."
+    }
+   ]
+  },
+  {
+   "id": "b-tzatziki",
+   "title": "Joghurtos uborkaszósz (tzatziki)",
+   "summary": "Fokhagymás joghurtos uborkaszósz grillételek mellé.",
+   "course": "koret",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 0,
+   "tags": [
+    "nemzetközi",
+    "gyors"
+   ],
+   "ingredients": [
+    {
+     "id": "joghurt",
+     "unit": "dl",
+     "amount": 2.0,
+     "note": "natúr"
+    },
+    {
+     "id": "uborka",
+     "unit": "db",
+     "amount": 1.0,
+     "note": "reszelve"
+    },
+    {
+     "id": "fokhagyma",
+     "unit": "gerezd",
+     "amount": 1.0,
+     "note": "zúzva"
+    },
+    {
+     "id": "olivaolaj",
+     "unit": "ek",
+     "amount": 1.0
+    },
+    {
+     "id": "kapor",
+     "unit": "ek",
+     "amount": 1.0,
+     "note": "aprítva"
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "A reszelt uborkát sózd meg, és nyomkodd ki a levét.",
+     "timerMinutes": 5
+    },
+    {
+     "text": "Keverd össze a joghurttal, a fokhagymával, az olívaolajjal és a kaporral."
+    },
+    {
+     "text": "Hűtsd le tálalás előtt.",
+     "timerMinutes": 30
+    }
+   ]
+  },
+  {
+   "id": "b-tonhalsalata",
+   "title": "Tonhalsaláta",
+   "summary": "Friss saláta tonhallal, kukoricával és paradicsommal.",
+   "course": "koret",
+   "servings": 2,
+   "prepMinutes": 10,
+   "cookMinutes": 0,
+   "tags": [
+    "nemzetközi",
+    "gyors"
+   ],
+   "ingredients": [
+    {
+     "id": "salata",
+     "unit": "fej",
+     "amount": 1.0,
+     "note": "feltépve"
+    },
+    {
+     "id": "tonhal",
+     "unit": "doboz",
+     "amount": 1.0,
+     "note": "lecsepegtetve"
+    },
+    {
+     "id": "kukorica",
+     "unit": "doboz",
+     "amount": 1.0,
+     "note": "lecsepegtetve"
+    },
+    {
+     "id": "paradicsom",
+     "unit": "db",
+     "amount": 2.0
+    },
+    {
+     "id": "uborka",
+     "unit": "db",
+     "amount": 1.0
+    },
+    {
+     "id": "olivaolaj",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "citromle",
+     "unit": "ek",
+     "amount": 2.0
+    },
+    {
+     "id": "so",
+     "unit": "ízlés szerint",
+     "amount": null
+    }
+   ],
+   "steps": [
+    {
+     "text": "Keverd össze a salátát, a felkockázott paradicsomot és uborkát, a kukoricát és a tonhalat."
+    },
+    {
+     "text": "Keverd el az olajat a citromlével és a sóval, locsold rá."
+    }
+   ]
+  }
+ ]
+}
