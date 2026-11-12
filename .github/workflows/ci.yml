@@ -6,6 +6,13 @@ on:
   pull_request:
 
 jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Adatfájlok ellenőrzése
+        run: python3 Scripts/validate_data.py
+
   swift:
     runs-on: macos-15
     steps:
