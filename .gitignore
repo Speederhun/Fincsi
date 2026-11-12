@@ -1,0 +1,10 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+App/Info.plist
+xcuserdata/
+*.xcuserstate
+__pycache__/

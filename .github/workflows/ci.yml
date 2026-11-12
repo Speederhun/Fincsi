@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  swift:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Swift csomag tesztek
+        run: swift test
+
+      - name: XcodeGen telepítése
+        run: brew install xcodegen
+
+      - name: Xcode projekt generálása
+        run: xcodegen generate
+
+      - name: App fordítása (iOS szimulátor)
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project Fincsi.xcodeproj \
+            -scheme Fincsi \
+            -destination 'generic/platform=iOS Simulator' \
+            -configuration Debug \
+            -quiet \
+            CODE_SIGNING_ALLOWED=NO \
+            build
