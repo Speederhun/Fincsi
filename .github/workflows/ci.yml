@@ -38,3 +38,39 @@ jobs:
             -quiet \
             CODE_SIGNING_ALLOWED=NO \
             build
+
+  ipa:
+    runs-on: macos-15
+    needs: swift
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: XcodeGen telepítése
+        run: brew install xcodegen
+
+      - name: Xcode projekt generálása
+        run: xcodegen generate
+
+      - name: Aláírás nélküli build (iPhone)
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project Fincsi.xcodeproj \
+            -scheme Fincsi \
+            -sdk iphoneos \
+            -configuration Release \
+            -derivedDataPath build \
+            -quiet \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            build
+
+      - name: IPA csomagolása
+        run: |
+          mkdir -p Payload
+          cp -R build/Build/Products/Release-iphoneos/Fincsi.app Payload/
+          zip -qry Fincsi.ipa Payload
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Fincsi-unsigned-ipa
+          path: Fincsi.ipa
