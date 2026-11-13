@@ -144,6 +144,25 @@ struct RecipesView: View {
                     ForEach(almost) { row($0) }
                 }
             }
+            let more = usable
+                .filter { $0.missingCount > limit && $0.usedFromPantry > 0 }
+                .sorted {
+                    if $0.usedFromPantry != $1.usedFromPantry { return $0.usedFromPantry > $1.usedFromPantry }
+                    return $0.missingCount < $1.missingCount
+                }
+            if ready.isEmpty && almost.isEmpty {
+                Section {
+                    Label("Egyik recepthez sincs meg minden hozzávaló. Lent azokat látod, amelyekben a legtöbb kamrabeli alapanyagod felhasználható; a Kamrában több alapanyagot is bejelölhetsz.",
+                          systemImage: "lightbulb")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+            }
+            if !more.isEmpty {
+                Section("Néhány hozzávaló még kell (\(min(more.count, 40)))") {
+                    ForEach(more.prefix(40)) { row($0) }
+                }
+            }
         } else {
             let sorted = usable.sorted { $0.recipe.title.localizedCompare($1.recipe.title) == .orderedAscending }
             Section("\(sorted.count) recept") {
@@ -245,6 +264,9 @@ struct RecipeRow: View {
                 .foregroundStyle(.secondary)
                 HStack(spacing: 6) {
                     availability
+                    if match.usedFromPantry > 0 {
+                        Badge(text: "\(match.usedFromPantry) a kamrából", symbol: "basket", tint: Theme.good)
+                    }
                     if match.substitutionCount > 0 {
                         Badge(text: "\(match.substitutionCount) csere", symbol: "arrow.triangle.swap", tint: Theme.warn)
                     }
@@ -291,5 +313,12 @@ struct RecipeThumb: View {
             }
         }
         .accessibilityHidden(true)
+    }
+}
+
+extension RecipeMatch {
+    /// Hány hozzávalót tudsz a kamrádból felhasználni (az alapvető, feltételezett hozzávalók nélkül).
+    var usedFromPantry: Int {
+        evaluations.filter { $0.availability == .have && !$0.ingredient.optional }.count
     }
 }
